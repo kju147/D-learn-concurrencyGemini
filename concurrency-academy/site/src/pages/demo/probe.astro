@@ -1,0 +1,36 @@
+---
+// 临时探针页：诊断浏览器内多线程运行的输出流
+import Base from '../../layouts/Base.astro';
+import JavaJudge from '../../components/islands/JavaJudge';
+
+const probeSpec = {
+  title: '探针：多线程输出流',
+  mission: '诊断用',
+  starterName: 'Probe',
+  starter: `public class Probe {
+    public static void main(String[] args) throws Exception {
+        System.out.println("probe:main-start " + Thread.currentThread().getName());
+        Thread t = new Thread(() -> {
+            System.out.println("probe:child-start " + Thread.currentThread().getName());
+            long s = 0; for (int i = 0; i < 500000; i++) s += i;
+            System.out.println("probe:child-end sum=" + s);
+        }, "child");
+        t.start();
+        System.out.println("probe:main-waiting-join");
+        t.join();
+        System.out.println("probe:main-after-join");
+    }
+}`,
+  tests: '',
+  timeoutSec: 120,
+};
+---
+<Base title="JVM 探针">
+  <div class="mx-auto max-w-4xl py-8">
+    <h1 class="font-display text-2xl">浏览器 JVM 下探针</h1>
+    <p class="mt-1 text-sm text-stone-500">运行 Probe 的 main：观察子线程输出与 join 是否卡住。<b>点判题运行的是 Tests；本页直接看 Probe 启动类需要 runner 的 run 模式——先用 Tests 占位。</b></p>
+    <div class="mt-6">
+      <JavaJudge client:load spec={probeSpec} />
+    </div>
+  </div>
+</Base>

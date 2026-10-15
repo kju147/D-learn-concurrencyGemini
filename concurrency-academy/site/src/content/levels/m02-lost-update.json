@@ -1,0 +1,45 @@
+{
+  "title": "丢失更新：一次加法的谋杀案",
+  "module": "m02",
+  "minutes": 25,
+  "level": "基础",
+  "evidence": "错误复现 + 真实判题",
+  "conceptIds": ["m02.race", "m02.synchronized"],
+  "steps": [
+    {
+      "kind": "story",
+      "id": "hook",
+      "title": "钩子：一次线上晨会",
+      "body": "上周三早高峰，客服群里炸出一张截图：盘点系统一夜之间少了 2000 笔库存。\n运维一脸无辜——CPU 占用 3%，机器一点不忙。",
+      "bullets": ["不是机器慢，是代码在并发下“算输了”", "这节课完你能亲手重演并修复它"]
+    },
+    {
+      "kind": "sim",
+      "id": "theater",
+      "title": "看：事故是怎么发生的",
+      "sceneKey": "lost-update",
+      "hint": "90 秒。先放映，中途会停下来问你一个问题；想接手随时点「我来试试」。"
+    },
+    {
+      "kind": "sim",
+      "id": "guarded",
+      "title": "对照组：加上锁，同样的调度还出事吗？",
+      "sceneKey": "lost-update-guarded",
+      "hint": "同一个 seed，同一批线程——只是进了房间要先拿钥匙。"
+    },
+    {
+      "kind": "story",
+      "id": "recap",
+      "title": "收拢：把直觉变成术语",
+      "body": "· 临界区（Critical Section）：对共享资源做多线程读写的那段代码。竞态只在临界区里发生。\n· 竞态条件（Race Condition）：结果取决于线程交错的 \"运气\"——正确程序不能依赖运气。\n· 原子性（Atomicity）：一组操作对外不可分割，要么全看见要么全看不见。\n\n精确定义：counter++ 编译为 getstatic / iconst_1 / iadd / putstatic 四条字节码，读与写之间的窗口允许其它线程插入。synchronized 对同一锁对象建立互斥，临界区对外原子。",
+      "bullets": ["最小范式：increment 里 synchronized(this){ count++; }", "锁谁、锁多大范围——那是下一关的账"]
+    },
+    { "kind": "judge", "id": "fix", "title": "动手：真 JVM 判题", "packId": "m02-lost-update-counter" },
+    {
+      "kind": "done",
+      "id": "done",
+      "title": "本关拿下",
+      "body": "你刚刚走完了一条完整的并发学习闭环：\n看到事故 → 强制预测 → 亲手重演 → 对照组 → 术语收拢 → 真实判题。\n复习卡已入池（P2 接通后它们会自己回来找你）。"
+    }
+  ]
+}

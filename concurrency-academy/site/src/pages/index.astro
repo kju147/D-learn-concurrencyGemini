@@ -1,0 +1,34 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base>
+  <section class="py-16 text-center">
+    <p class="text-xs font-bold uppercase tracking-[0.3em] text-teal-700">面向 Java 社区 · 基线 JDK 21</p>
+    <h1 class="font-display mx-auto mt-4 max-w-3xl text-4xl leading-tight sm:text-5xl">
+      并发不是靠背的，<br />是<span class="text-teal-700">亲手制造事故</span>学会的。
+    </h1>
+    <p class="mx-auto mt-5 max-w-xl text-sm leading-7 text-stone-500">
+      动画推演每个竞态现场，浏览器里的真实 JDK 21 逐题判分，间隔复习对抗遗忘，
+      最后用一个十阶段订单履约项目把全部本事焊死。
+    </p>
+    <div class="mt-8 flex items-center justify-center gap-3">
+      <a href="/diagnostic" class="rounded-lg bg-teal-700 px-5 py-2.5 text-sm font-semibold text-white hover:bg-teal-800">4 分钟入学诊断</a>
+      <a href="/playground" class="rounded-lg border border-stone-300 px-5 py-2.5 text-sm font-semibold text-stone-700 hover:bg-stone-100">先在沙盒里跑个线程</a>
+    </div>
+  </section>
+
+  <section class="grid gap-4 pb-16 sm:grid-cols-2 lg:grid-cols-4">
+    {[
+      ['🎬', '调度模拟器动画', '不是播 PPT：你能亲手选择交错顺序，制造丢失更新，并把现场链接发给朋友。'],
+      ['⚖️', '真实 JVM 判题', '浏览器内运行 JDK 21（WASM），手写代码真实编译、行为断言，不是对答案。'],
+      ['🗂', 'SM-2 间隔复习', '每节课产出复习卡进复习池，到期自动出现，专治"学过又忘"。'],
+      ['🔥', 'FlashFlow 毕业项目', '十阶段订单履约系统：从竞态到压测报告，覆盖全部模块。'],
+    ].map(([emoji, title, body]) => (
+      <div class="rounded-xl border border-stone-200 bg-white p-5">
+        <p class="text-2xl">{emoji}</p>
+        <h3 class="mt-2 font-bold">{title}</h3>
+        <p class="mt-1.5 text-xs leading-6 text-stone-500">{body}</p>
+      </div>
+    ))}
+  </section>
+</Base>

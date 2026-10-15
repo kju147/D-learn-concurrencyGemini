@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro';
+import { JavaCodeEditor } from '../../components/islands/java-code-editor';
+---
+<Base title="editor probe">
+  <div class="mx-auto max-w-3xl py-8">
+    <h1 class="text-xl font-bold">最小编辑器探针</h1>
+    <div class="mt-4">
+      <JavaCodeEditor client:load value={"public class Demo {\n}"} exerciseId="demo" onChange={() => {}} heightClass="h-64" />
+    </div>
+  </div>
+</Base>

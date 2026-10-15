@@ -1,0 +1,42 @@
+{
+  "title": "六态：把线程当成可以远程身顾名一样插电",
+  "module": "m01",
+  "minutes": 22,
+  "level": "基础",
+  "evidence": "状态观测",
+  "conceptIds": ["m01.lifecycle"],
+  "steps": [
+    {
+      "kind": "story",
+      "id": "hook",
+      "title": "钩子：能看到的并发比讲述的并发思维强",
+      "body": "「线程有五种状态」——这句话前半错、后半歧义。\n不上的那种面经是没有交集的认流。问题来了：Java 的 API 出现了六个框，到底什么状态六个。这题多了 3 分。\n\n这一关不传一句话，不信谣不传谣——自己写好程序自己看一下状态。",
+      "bullets": ["接下来这题的意思是用判题器让代码暴露自己"]
+    },
+    {
+      "kind": "story",
+      "id": "six-states",
+      "title": "六个盒：NEW / RUNNABLE / BLOCKED / WAITING / TIMED_WAITING / TERMINATED",
+      "body": "每个线程在 Java 里必走这几个状态（API 层）：\n\n· NEW：new Thread() 造出来，还未 start\n· RUNNABLE：已 start，可上 CPU（此刻或稍后）\n· BLOCKED：被锁挡外面，等别人放下锁\n· WAITING：等某个信号（wait / join / park）\n· TIMED_WAITING：有时限的等待（sleep / wait(n) / join(n)）\n· TERMINATED：退出\n\n判题会在后端帮你拍快照：你写的程序必须让这状态真的出现过，不能打印了事。"
+    },
+    {
+      "kind": "story",
+      "id": "anim",
+      "title": "看一段戏：一条线程的一生",
+      "body": "按「放映」听一个线程过命。看完判题里你再戴着它。",
+      "anim": "thread-lifecycle"
+    },
+    {
+      "kind": "judge",
+      "id": "state-watch",
+      "title": "动手：用 getState() 把六个名字看穿",
+      "packId": "m01-thread-states"
+    },
+    {
+      "kind": "done",
+      "id": "done",
+      "title": "元期过了！",
+      "body": "这一坑你假化都是老老实实的：眼走 代理人状态名连函数里弹出的 Thumb，同时别把“Java 六态”当作 OS 四态，下次就把 dump 给暴跌。"
+    }
+  ]
+}

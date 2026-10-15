@@ -1,0 +1,689 @@
+{
+  "schemaVersion": 1,
+  "targetRuntime": "JDK 21",
+  "sources": {
+    "notes-main": "并发编程.pdf（181 页）",
+    "notes-principles": "并发编程_原理.pdf（106 页）",
+    "notes-patterns": "并发编程_模式.pdf（33 页）",
+    "notes-applications": "并发编程_应用.pdf（27 页）",
+    "examples": "concurrent 目录（168 个 Java 文件）",
+    "modernization": "JDK 21 规范、JEP 与官方工具资料",
+    "engineering": "Spring 与生产工程实践补充"
+  },
+  "assessmentPolicy": {
+    "recognition": "选择与判断只用于概念辨析和结果预测",
+    "manualCodeMinimumPerCoreModule": 2,
+    "completionRule": "核心模块必须同时通过手写代码、自动测试和解释题，不能只靠选择题通关",
+    "realRunnerRequired": true
+  },
+  "codeExercisePlan": {
+    "m01": 6,
+    "m02": 8,
+    "m03": 8,
+    "m04": 6,
+    "m05": 7,
+    "m06": 7,
+    "m07": 9,
+    "m08": 8,
+    "m09": 7,
+    "m10": 7,
+    "m11": 6,
+    "m12": 8,
+    "m13": 10
+  },
+  "modules": [
+    {
+      "id": "m00",
+      "title": "入学诊断与预备知识",
+      "prerequisites": [],
+      "concepts": [
+        {
+          "id": "m00.java-memory",
+          "title": "Java 引用、栈、堆与方法调用",
+          "origins": ["modernization"],
+          "evidence": "概念诊断"
+        },
+        {
+          "id": "m00.process-thread",
+          "title": "进程、线程、任务与调度",
+          "origins": ["notes-main"],
+          "evidence": "时间线判断"
+        },
+        {
+          "id": "m00.concurrency-terms",
+          "title": "同步/异步、阻塞/非阻塞、并发/并行",
+          "origins": ["notes-main"],
+          "evidence": "术语辨析"
+        },
+        {
+          "id": "m00.placement",
+          "title": "分层诊断与个性化入口",
+          "origins": ["engineering"],
+          "evidence": "诊断报告"
+        }
+      ]
+    },
+    {
+      "id": "m01",
+      "title": "线程与任务",
+      "prerequisites": ["m00"],
+      "concepts": [
+        {
+          "id": "m01.creation",
+          "title": "Thread、Runnable、Callable 与 FutureTask",
+          "origins": ["notes-main", "examples"],
+          "evidence": "可运行实验"
+        },
+        {
+          "id": "m01.start-run",
+          "title": "start 与 run 的语义差异",
+          "origins": ["notes-main", "examples"],
+          "evidence": "线程身份断言"
+        },
+        {
+          "id": "m01.stack-switch",
+          "title": "栈帧与上下文切换",
+          "origins": ["notes-main"],
+          "evidence": "调用栈动画"
+        },
+        {
+          "id": "m01.lifecycle",
+          "title": "Java 六态及状态转换",
+          "origins": ["notes-main", "examples"],
+          "evidence": "状态观测"
+        },
+        {
+          "id": "m01.join-sleep",
+          "title": "sleep、yield、join 与定时 join",
+          "origins": ["notes-main", "examples"],
+          "evidence": "编排练习"
+        },
+        {
+          "id": "m01.interrupt",
+          "title": "中断协议、标记恢复与协作取消",
+          "origins": ["notes-main", "examples"],
+          "evidence": "取消测试"
+        },
+        {
+          "id": "m01.daemon-deprecated",
+          "title": "守护线程及 stop/suspend/resume 失败设计",
+          "origins": ["notes-main"],
+          "evidence": "风险判断"
+        }
+      ]
+    },
+    {
+      "id": "m02",
+      "title": "共享状态与互斥",
+      "prerequisites": ["m01"],
+      "concepts": [
+        {
+          "id": "m02.race",
+          "title": "临界区、竞态条件与复合操作",
+          "origins": ["notes-main", "examples"],
+          "evidence": "错误复现"
+        },
+        {
+          "id": "m02.synchronized",
+          "title": "synchronized 与锁对象身份",
+          "origins": ["notes-main", "examples"],
+          "evidence": "八锁实验"
+        },
+        {
+          "id": "m02.scope",
+          "title": "锁粒度、范围与不变量",
+          "origins": ["notes-main", "engineering"],
+          "evidence": "代码审查"
+        },
+        {
+          "id": "m02.escape",
+          "title": "局部变量、引用逃逸与 Servlet 单例安全",
+          "origins": ["notes-main", "examples"],
+          "evidence": "逃逸分析题"
+        },
+        {
+          "id": "m02.immutability",
+          "title": "不可变对象与防御性复制",
+          "origins": ["notes-main", "notes-patterns"],
+          "evidence": "重构练习"
+        },
+        {
+          "id": "m02.business-invariants",
+          "title": "售票、转账、余额与库存不变量",
+          "origins": ["notes-main", "notes-applications", "examples"],
+          "evidence": "并发业务测试"
+        }
+      ]
+    },
+    {
+      "id": "m03",
+      "title": "线程协作与活性",
+      "prerequisites": ["m02"],
+      "concepts": [
+        {
+          "id": "m03.wait-notify",
+          "title": "wait/notify/notifyAll 与条件循环",
+          "origins": ["notes-main", "notes-principles", "examples"],
+          "evidence": "条件队列实验"
+        },
+        {
+          "id": "m03.park",
+          "title": "park/unpark 许可模型",
+          "origins": ["notes-main", "notes-principles", "examples"],
+          "evidence": "时序实验"
+        },
+        {
+          "id": "m03.guarded",
+          "title": "Guarded Suspension",
+          "origins": ["notes-patterns", "examples"],
+          "evidence": "异步信箱"
+        },
+        {
+          "id": "m03.balking",
+          "title": "Balking 与两阶段终止",
+          "origins": ["notes-patterns", "examples"],
+          "evidence": "后台任务"
+        },
+        {
+          "id": "m03.producer-consumer",
+          "title": "生产者—消费者",
+          "origins": ["notes-patterns", "examples"],
+          "evidence": "有界消息队列"
+        },
+        {
+          "id": "m03.liveness",
+          "title": "死锁、活锁、饥饿与哲学家就餐",
+          "origins": ["notes-main", "examples"],
+          "evidence": "故障注入"
+        },
+        {
+          "id": "m03.thread-dump",
+          "title": "线程转储与死锁因果链",
+          "origins": ["notes-main", "engineering"],
+          "evidence": "诊断报告"
+        }
+      ]
+    },
+    {
+      "id": "m04",
+      "title": "Java 内存模型",
+      "prerequisites": ["m02"],
+      "concepts": [
+        {
+          "id": "m04.hardware",
+          "title": "流水线、缓存层级、缓存行与硬件一致性直觉",
+          "origins": ["notes-principles"],
+          "evidence": "动画预测"
+        },
+        {
+          "id": "m04.properties",
+          "title": "原子性、可见性与有序性",
+          "origins": ["notes-main", "notes-principles"],
+          "evidence": "结果分类"
+        },
+        {
+          "id": "m04.volatile",
+          "title": "volatile 语义与边界",
+          "origins": ["notes-main", "notes-principles", "examples"],
+          "evidence": "JCStress"
+        },
+        {
+          "id": "m04.happens-before",
+          "title": "happens-before 规则与传递证明",
+          "origins": ["notes-main", "modernization"],
+          "evidence": "证明题"
+        },
+        {
+          "id": "m04.final-publication",
+          "title": "final、安全构造与安全发布",
+          "origins": ["notes-principles", "examples"],
+          "evidence": "发布实验"
+        },
+        {
+          "id": "m04.dcl",
+          "title": "DCL、类初始化与单例",
+          "origins": ["notes-main", "notes-patterns", "examples"],
+          "evidence": "反例修复"
+        },
+        {
+          "id": "m04.varhandle",
+          "title": "VarHandle 访问模式与 Unsafe 历史边界",
+          "origins": ["notes-main", "modernization"],
+          "evidence": "API 迁移"
+        }
+      ]
+    },
+    {
+      "id": "m05",
+      "title": "Monitor、显式锁与 AQS",
+      "prerequisites": ["m03", "m04"],
+      "concepts": [
+        {
+          "id": "m05.monitor",
+          "title": "对象头、Mark Word、Lock Record 与 Monitor",
+          "origins": ["notes-main", "notes-principles"],
+          "evidence": "结构动画"
+        },
+        {
+          "id": "m05.lock-history",
+          "title": "偏向锁、轻量级锁与膨胀的版本史",
+          "origins": ["notes-principles", "modernization"],
+          "evidence": "版本判断"
+        },
+        {
+          "id": "m05.reentrant-lock",
+          "title": "ReentrantLock 可中断、超时、公平与重入",
+          "origins": ["notes-main", "examples"],
+          "evidence": "选型实验"
+        },
+        {
+          "id": "m05.condition",
+          "title": "多 Condition 条件队列",
+          "origins": ["notes-main", "notes-principles", "examples"],
+          "evidence": "多条件仓库"
+        },
+        {
+          "id": "m05.aqs",
+          "title": "AQS state、队列、取消与传播",
+          "origins": ["notes-principles", "examples"],
+          "evidence": "源码轨迹"
+        },
+        {
+          "id": "m05.read-write",
+          "title": "ReadWriteLock、锁降级与 StampedLock",
+          "origins": ["notes-main", "notes-principles", "examples"],
+          "evidence": "缓存实验"
+        }
+      ]
+    },
+    {
+      "id": "m06",
+      "title": "CAS、原子类与无锁思维",
+      "prerequisites": ["m04"],
+      "concepts": [
+        {
+          "id": "m06.cas",
+          "title": "CAS、重试与进度保证",
+          "origins": ["notes-main", "examples"],
+          "evidence": "竞争实验"
+        },
+        {
+          "id": "m06.aba",
+          "title": "ABA 与带版本原子引用",
+          "origins": ["notes-main", "examples"],
+          "evidence": "账户场景"
+        },
+        {
+          "id": "m06.atomics",
+          "title": "原子整数、引用、数组与字段更新器",
+          "origins": ["notes-main", "examples"],
+          "evidence": "API 选型"
+        },
+        {
+          "id": "m06.adders",
+          "title": "LongAdder 与 LongAccumulator",
+          "origins": ["notes-main", "notes-principles"],
+          "evidence": "JMH"
+        },
+        {
+          "id": "m06.false-sharing",
+          "title": "伪共享、缓存行与 @Contended",
+          "origins": ["notes-main", "notes-principles"],
+          "evidence": "JMH"
+        },
+        {
+          "id": "m06.spin",
+          "title": "自旋、退避与重试风暴",
+          "origins": ["notes-main", "engineering"],
+          "evidence": "高竞争诊断"
+        }
+      ]
+    },
+    {
+      "id": "m07",
+      "title": "平台线程池、调度与并行计算",
+      "prerequisites": ["m03", "m05"],
+      "concepts": [
+        {
+          "id": "m07.custom-pool",
+          "title": "Worker、BlockingQueue 与自建线程池",
+          "origins": ["notes-main", "notes-patterns", "examples"],
+          "evidence": "实现练习"
+        },
+        {
+          "id": "m07.tpe",
+          "title": "ThreadPoolExecutor 参数、状态与执行路径",
+          "origins": ["notes-main", "examples"],
+          "evidence": "队列模拟"
+        },
+        {
+          "id": "m07.rejection",
+          "title": "有界队列、拒绝、背压与业务语义",
+          "origins": ["notes-main", "engineering"],
+          "evidence": "过载实验"
+        },
+        {
+          "id": "m07.submit-errors",
+          "title": "execute/submit、批量提交与异常可见性",
+          "origins": ["notes-main", "examples"],
+          "evidence": "失败测试"
+        },
+        {
+          "id": "m07.shutdown",
+          "title": "优雅停机与任务取消",
+          "origins": ["notes-main", "examples"],
+          "evidence": "停机验收"
+        },
+        {
+          "id": "m07.starvation",
+          "title": "线程饥饿死锁与池隔离",
+          "origins": ["notes-main", "examples"],
+          "evidence": "事故复盘"
+        },
+        {
+          "id": "m07.scheduling",
+          "title": "Timer 与 ScheduledThreadPoolExecutor",
+          "origins": ["notes-main", "notes-applications", "examples"],
+          "evidence": "异常调度实验"
+        },
+        {
+          "id": "m07.forkjoin",
+          "title": "ForkJoin、工作窃取与并行流",
+          "origins": ["notes-main", "notes-applications", "examples"],
+          "evidence": "分治实验"
+        },
+        {
+          "id": "m07.capacity",
+          "title": "CPU/I/O 负载、Little's Law 与容量估算",
+          "origins": ["notes-applications", "engineering"],
+          "evidence": "容量报告"
+        }
+      ]
+    },
+    {
+      "id": "m08",
+      "title": "同步器、队列与并发容器",
+      "prerequisites": ["m05", "m06"],
+      "concepts": [
+        {
+          "id": "m08.semaphore",
+          "title": "Semaphore、公平性与资源预算",
+          "origins": [
+            "notes-main",
+            "notes-principles",
+            "notes-applications",
+            "examples"
+          ],
+          "evidence": "连接池"
+        },
+        {
+          "id": "m08.latches",
+          "title": "CountDownLatch、CyclicBarrier 与 Phaser",
+          "origins": ["notes-main", "examples", "modernization"],
+          "evidence": "阶段协作"
+        },
+        {
+          "id": "m08.blocking-queues",
+          "title": "BlockingQueue 家族与选型",
+          "origins": ["notes-main", "notes-principles", "examples"],
+          "evidence": "队列对比"
+        },
+        {
+          "id": "m08.lockfree-queue",
+          "title": "ConcurrentLinkedQueue 原理",
+          "origins": ["notes-main", "notes-principles"],
+          "evidence": "源码轨迹"
+        },
+        {
+          "id": "m08.chm",
+          "title": "ConcurrentHashMap 复合操作与弱一致性",
+          "origins": ["notes-main", "notes-principles", "examples"],
+          "evidence": "词频统计"
+        },
+        {
+          "id": "m08.collection-history",
+          "title": "HashMap/ConcurrentHashMap JDK 7/8 实现演进",
+          "origins": ["notes-principles", "modernization"],
+          "evidence": "版本辨析"
+        },
+        {
+          "id": "m08.cow",
+          "title": "CopyOnWrite 快照、写放大与一致性",
+          "origins": ["notes-main"],
+          "evidence": "读写模型选型"
+        }
+      ]
+    },
+    {
+      "id": "m09",
+      "title": "Future、CompletableFuture 与异步图",
+      "prerequisites": ["m07"],
+      "concepts": [
+        {
+          "id": "m09.future",
+          "title": "Future 等待、超时、取消与异常",
+          "origins": ["notes-main", "notes-applications", "examples"],
+          "evidence": "有界等待"
+        },
+        {
+          "id": "m09.stages",
+          "title": "CompletionStage 变换、组合、竞速与汇合",
+          "origins": ["notes-applications", "engineering"],
+          "evidence": "编排图"
+        },
+        {
+          "id": "m09.executors",
+          "title": "同步/Async 方法与默认执行器污染",
+          "origins": ["engineering"],
+          "evidence": "线程归属实验"
+        },
+        {
+          "id": "m09.failure",
+          "title": "deadline、异常、超时与取消传播",
+          "origins": ["engineering"],
+          "evidence": "故障注入"
+        },
+        {
+          "id": "m09.context",
+          "title": "ThreadLocal、MDC、安全与事务上下文",
+          "origins": ["modernization", "engineering"],
+          "evidence": "上下文测试"
+        },
+        {
+          "id": "m09.reactive",
+          "title": "Flow、Reactive Streams 与响应式边界",
+          "origins": ["modernization", "engineering"],
+          "evidence": "架构选型"
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "title": "JDK 21 现代并发",
+      "prerequisites": ["m04", "m07", "m08"],
+      "concepts": [
+        {
+          "id": "m10.virtual-model",
+          "title": "虚拟线程 M:N、载体与挂载/卸载",
+          "origins": ["modernization"],
+          "evidence": "调度动画"
+        },
+        {
+          "id": "m10.virtual-api",
+          "title": "Thread.Builder 与每任务虚拟线程执行器",
+          "origins": ["modernization"],
+          "evidence": "Java 21 实验"
+        },
+        {
+          "id": "m10.workloads",
+          "title": "阻塞 I/O、CPU 负载与收益边界",
+          "origins": ["modernization", "engineering"],
+          "evidence": "负载对比"
+        },
+        {
+          "id": "m10.no-pooling",
+          "title": "不池化虚拟线程与 Semaphore 限制资源",
+          "origins": ["modernization"],
+          "evidence": "迁移题"
+        },
+        {
+          "id": "m10.pinning",
+          "title": "JDK 21 Pinning 与 JFR/jcmd 观测",
+          "origins": ["modernization"],
+          "evidence": "诊断报告"
+        },
+        {
+          "id": "m10.scoped-values",
+          "title": "Scoped Values（JDK 21 预览）",
+          "origins": ["modernization"],
+          "evidence": "上下文实验"
+        },
+        {
+          "id": "m10.structured",
+          "title": "Structured Concurrency（JDK 21 预览）",
+          "origins": ["modernization"],
+          "evidence": "fan-out 实验"
+        }
+      ]
+    },
+    {
+      "id": "m11",
+      "title": "并发测试、性能与生产诊断",
+      "prerequisites": ["m04", "m07"],
+      "concepts": [
+        {
+          "id": "m11.deterministic-tests",
+          "title": "屏障、锁存器、超时与不变量断言",
+          "origins": ["engineering"],
+          "evidence": "自动测试"
+        },
+        {
+          "id": "m11.jcstress",
+          "title": "JCStress 与结果分类",
+          "origins": ["examples", "modernization"],
+          "evidence": "JCStress"
+        },
+        {
+          "id": "m11.jmh",
+          "title": "JMH 预热、fork、状态与死码陷阱",
+          "origins": ["notes-applications", "examples", "modernization"],
+          "evidence": "JMH"
+        },
+        {
+          "id": "m11.load",
+          "title": "吞吐、分位延迟、排队与饱和点",
+          "origins": ["engineering"],
+          "evidence": "压测报告"
+        },
+        {
+          "id": "m11.observability",
+          "title": "线程转储、jcmd、JFR/JMC",
+          "origins": ["notes-main", "modernization"],
+          "evidence": "证据链"
+        },
+        {
+          "id": "m11.incidents",
+          "title": "CPU、死锁、池耗尽、长尾与堆积诊断",
+          "origins": ["engineering"],
+          "evidence": "事故复盘"
+        }
+      ]
+    },
+    {
+      "id": "m12",
+      "title": "Spring 与真实业务架构",
+      "prerequisites": ["m07", "m09", "m10", "m11"],
+      "concepts": [
+        {
+          "id": "m12.spring-execution",
+          "title": "TaskExecutor、@Async、TaskScheduler 与 @Scheduled",
+          "origins": ["engineering"],
+          "evidence": "Spring 实验"
+        },
+        {
+          "id": "m12.proxy-context",
+          "title": "代理、自调用、异常、事务与上下文边界",
+          "origins": ["engineering"],
+          "evidence": "集成测试"
+        },
+        {
+          "id": "m12.server-models",
+          "title": "Tomcat、MVC 虚拟线程与 WebFlux",
+          "origins": ["notes-main", "engineering"],
+          "evidence": "模型选型"
+        },
+        {
+          "id": "m12.resource-coupling",
+          "title": "JDBC、HTTP 连接池与线程资源联动",
+          "origins": ["notes-applications", "engineering"],
+          "evidence": "容量实验"
+        },
+        {
+          "id": "m12.resilience",
+          "title": "限流、舱壁、背压、超时、重试、熔断与幂等",
+          "origins": ["engineering"],
+          "evidence": "故障注入"
+        },
+        {
+          "id": "m12.distributed-invariants",
+          "title": "数据库、缓存、消息与本地并发不变量",
+          "origins": ["engineering"],
+          "evidence": "架构评审"
+        }
+      ]
+    },
+    {
+      "id": "m13",
+      "title": "FlashFlow 集大成项目",
+      "prerequisites": [
+        "m02",
+        "m03",
+        "m04",
+        "m07",
+        "m08",
+        "m09",
+        "m10",
+        "m11",
+        "m12"
+      ],
+      "concepts": [
+        {
+          "id": "m13.inventory",
+          "title": "原子库存与订单状态机",
+          "origins": ["engineering"],
+          "evidence": "不变量报告"
+        },
+        {
+          "id": "m13.admission",
+          "title": "有界接入、拒绝、幂等与背压",
+          "origins": ["engineering"],
+          "evidence": "过载实验"
+        },
+        {
+          "id": "m13.fanout",
+          "title": "履约 fan-out 与失败传播",
+          "origins": ["engineering"],
+          "evidence": "故障注入"
+        },
+        {
+          "id": "m13.bulkheads",
+          "title": "下游并发预算与舱壁",
+          "origins": ["engineering"],
+          "evidence": "容量验收"
+        },
+        {
+          "id": "m13.virtual-migration",
+          "title": "平台线程池与虚拟线程双版本",
+          "origins": ["modernization", "engineering"],
+          "evidence": "对比报告"
+        },
+        {
+          "id": "m13.final-evidence",
+          "title": "JCStress、JMH、JFR 与端到端验收",
+          "origins": ["examples", "modernization", "engineering"],
+          "evidence": "毕业答辩"
+        }
+      ]
+    }
+  ]
+}

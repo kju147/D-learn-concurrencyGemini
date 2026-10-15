@@ -1,0 +1,11 @@
+{
+  "id": "m01-future-task",
+  "moduleId": "M01",
+  "title": "用 FutureTask 返回计算结果",
+  "revision": 2,
+  "entry": "Settlement",
+  "tests": "Judge",
+  "starter": "SettlementStarter.java",
+  "timeoutSec": 60,
+  "notes": "一条路：Callable 给 FutureTask，FutureTask 交给 Thread，结果用 get() 取。禁止共享可变字段传值。"
+}

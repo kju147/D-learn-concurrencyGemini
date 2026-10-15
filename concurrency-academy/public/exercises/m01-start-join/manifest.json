@@ -1,0 +1,11 @@
+{
+  "id": "m01-start-join",
+  "moduleId": "M01",
+  "title": "启动线程，并等待结果可用",
+  "revision": 2,
+  "entry": "OrderImport",
+  "tests": "Judge",
+  "starter": "OrderImportStarter.java",
+  "timeoutSec": 60,
+  "notes": "浏览器内 JVM 判题：真实编译 + 行为断言。本页测试是反馈之一，不是所有并发调度的证明。"
+}

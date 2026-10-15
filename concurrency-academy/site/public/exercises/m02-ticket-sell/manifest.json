@@ -1,0 +1,21 @@
+{
+  "id": "m02-ticket-sell",
+  "module": "m02",
+  "title": "售票窗口：别超卖一张票",
+  "difficulty": "标准",
+  "timeoutSec": 60,
+  "probes": [
+    "threads",
+    "synchronized",
+    "start-join"
+  ],
+  "starter": "Main.java",
+  "tests": "Tests.java",
+  "mission": "模拟 20 个窗口卖票：一个共享 TicketWindow（100 张票），20 个线程同时开卖。你要写出让“超卖”毫无可能的实现。判题检查结果必须没有超卖（总售出 = 100，不多一张）且同时每个窗口都得到公平调用。",
+  "hints": [
+    "检查票多于 0 再减，是典型竞态区",
+    "「检查还有票 + 减一」是两步，中间是锁不住的窗口",
+    "售票的判段+减 是一组复合操作，要把它们粘在一起"
+  ],
+  "solution": "Solution.java"
+}

@@ -1,0 +1,28 @@
+{
+  "title": "sleep / yield / park 与为什么不许用 stop",
+  "module": "m01",
+  "minutes": 15,
+  "level": "基础",
+  "evidence": "编排练习",
+  "conceptIds": ["m01.join-sleep", "m01.daemon-deprecated"],
+  "steps": [
+    {
+      "kind": "story",
+      "id": "hook",
+      "title": "钩子：sleep 是个容器厚度问题",
+      "body": "别小看 sleep。\n大家对于 sleep(500) 都有种温柔乡一号误会：它睡的时候**就算拿着锁也不放**，别人想进临界区只能干等；\n它表面上只是“眯一下”的事，实际在并发里是关系到可不可用的事。\n\n📌 语法：`Thread.sleep(millis)`，调用当前线程；**必须处理 InterruptedException**（因别人可以打断）。"
+    },
+    {
+      "kind": "story",
+      "id": "sleep-or-else",
+      "title": "三种让线程停下来稍微許可各自不同的方式",
+      "body": "· sleep(n)：当前线程进 TIMED_WAITING，不释放锁，到时恢复\n· yield()：给调度器递一句我先让别人——是提示不是命令\n· park()：等别人来 unpark（M03 到 AQS 里大量用）\n\n对应的语法小贴：\n```\nThread.sleep(500);          // 睡 500 毫秒，需要 catch InterruptedException\nThread.yield();                // 我让你别人先跑，戳有应对\nLockSupport.park();            // 等别人给我门（M03 才展开）\n```\n\n正确姿势：sleep 用在「等时机」（轮询、节流），别用来放慢调度节奏——切不快风险全出。"
+    },
+    {
+      "kind": "done",
+      "id": "done",
+      "title": "禁忌的一段历史",
+      "body": "stop()、suspend()、resume()：在 JDK 早期就废弃了，不是因为它们跑不开——而是它们会鞭坏临界区。\n\n这门课要列一种老碰运气的方式：不用你记住多少 API，而是「这个 API 会不会破坏你们共享的资源」这种判断能不能板下来。"
+    }
+  ]
+}

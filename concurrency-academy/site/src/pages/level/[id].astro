@@ -1,0 +1,27 @@
+---
+// 关卡制课页：/level/<id>，数据来自 content/levels/*.json
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import LevelFlow, { type LevelStep } from '../../components/islands/LevelFlow';
+import { getModule } from '../../lib/curriculum';
+
+export async function getStaticPaths() {
+  const levels = await getCollection('levels');
+  return levels.map((l) => ({ params: { id: l.id }, props: { entry: l } }));
+}
+
+const { entry } = Astro.props;
+const { title, steps, module: mod, minutes, level: lvl, evidence } = entry.data;
+const m = getModule(mod);
+---
+<Base title={title} description={m ? `${m.index} ${m.title}` : title}>
+  <div class="mx-auto max-w-4xl py-8">
+    <div class="mb-4 flex flex-wrap items-center gap-2 text-xs text-stone-500">
+      {m && <a href={`/learn/${m.id}`} class="rounded-full bg-teal-100 px-3 py-1 font-semibold text-teal-800 hover:bg-teal-200">{m.index} · {m.title}</a>}
+      <span class="rounded-full border border-stone-300 px-3 py-1">约 {minutes} 分钟</span>
+      <span class="rounded-full border border-stone-300 px-3 py-1">{lvl}</span>
+      {evidence && <span class="rounded-full border border-stone-300 px-3 py-1">验收：{evidence}</span>}
+    </div>
+    <LevelFlow client:load sceneTitle={title} steps={steps as unknown as LevelStep[]} />
+  </div>
+</Base>

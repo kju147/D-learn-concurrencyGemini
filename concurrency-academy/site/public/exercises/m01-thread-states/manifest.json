@@ -1,0 +1,22 @@
+{
+  "id": "m01-thread-states",
+  "module": "m01",
+  "title": "线程在六态之间搬家",
+  "difficulty": "入门",
+  "timeoutSec": 60,
+  "probes": [
+    "threads",
+    "start",
+    "join",
+    "sleep"
+  ],
+  "starter": "Main.java",
+  "tests": "Tests.java",
+  "mission": "亲眼目击 Java 线程四类家：NEW、RUNNABLE、TIMED_WAITING、TERMINATED。做法：先建一个线程别再 start（此时是 NEW）；启动并让它 sleep 500 毫秒（此时主线程去 getState() 应住 TIMED_WAITING）；最后 join 它（结束后状态变 TERMINATED）。每次观测都打印一行。判题会检查 stdout 里真实出现了 NEW/TIMED_WAITING/TERMINATED 种字样的出现以及顺序正确。",
+  "hints": [
+    "建对象未 start 时什么状态？给它个机会看一眼",
+    "目标线程里 sleep 不是死掉，它只是去 TIMED_WAITING 里乘凉；主线程在那 500ms 里随时可以走到 getState()",
+    "多观测几次，别抱着 30 年难遇的运气"
+  ],
+  "solution": "Solution.java"
+}

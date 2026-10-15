@@ -1,0 +1,19 @@
+{
+  "id": "m01-join-orchestrate",
+  "module": "m01",
+  "title": "烧水泡茶：筹划两道工序并进并完成",
+  "difficulty": "入门",
+  "timeoutSec": 60,
+  "probes": [
+    "threads",
+    "join"
+  ],
+  "starter": "Main.java",
+  "tests": "Tests.java",
+  "mission": "有两道工序：烧水（sleep 500ms 模拟耗时）与洗茶具（sleep 300ms）。你用两个线程把这两件事并行起来，主线程等它们都结束后，打印一行【茶好了】。判题会验证：两个任务真的跑到副线程上、主线程确实等齐了两边、且茶好了出现在最后一行。\n\n判题会检查的固定输出字样：\n- 烧水线程里打印：烧水中\n- 洗茶具线程里打印：洗茶具中\n- 主线程汇合后打印：茶好了",
+  "hints": [
+    "烧水与洗茶具之间谁都等不了谁——它们是可以并行先上手的活儿",
+    "怎么让主线程等两个都完？join 是一个答案"
+  ],
+  "solution": "Solution.java"
+}

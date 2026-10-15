@@ -1,0 +1,21 @@
+---
+// 标杆关卡（数据驱动版）：演示关卡模板——内容全部来自 src/content/levels/*.json
+import { getEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import LevelFlow from '../../components/islands/LevelFlow';
+import type { LevelStep } from '../../components/islands/LevelFlow';
+
+const level = await getEntry('levels', 'm02-lost-update');
+if (!level) throw new Error('缺失 level 内容：m02-lost-update');
+const { title, steps, minutes, level: lvl } = level.data;
+---
+<Base title={title} description="剧场→预测→接管→收拢→判题，全链路关卡样板。">
+  <div class="mx-auto max-w-4xl py-8">
+    <div class="mb-4 flex flex-wrap items-center gap-2 text-xs text-stone-500">
+      <span class="rounded-full bg-teal-100 px-3 py-1 font-semibold text-teal-800">M02 共享状态与互斥</span>
+      <span class="rounded-full border border-stone-300 px-3 py-1">约 {minutes} 分钟</span>
+      <span class="rounded-full border border-stone-300 px-3 py-1">{lvl}</span>
+    </div>
+    <LevelFlow client:load sceneTitle={title} steps={steps} />
+  </div>
+</Base>

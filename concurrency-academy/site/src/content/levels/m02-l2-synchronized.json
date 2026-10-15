@@ -1,0 +1,40 @@
+{
+  "title": "synchronized 与锁对象的身份",
+  "module": "m02",
+  "minutes": 22,
+  "level": "基础",
+  "evidence": "八锁实验",
+  "conceptIds": ["m02.synchronized", "m02.scope"],
+  "steps": [
+    {
+      "kind": "story",
+      "id": "hook",
+      "title": "钩子：锁到底锁的是谁",
+      "body": "这是并发面试，也是实际代码质量事故类的第一种子题：\n「synchronized 加在方法上」和「synchronized(obj) {}」锁的是同一个对象吗？\n\n答案要看的是「锁对象」这个关键的暗牌。"
+    },
+    {
+      "kind": "story",
+      "id": "lock-shape",
+      "title": "锁对象的三种身份，这门课的码池",
+      "body": "synchronized 的锁对象只能是下面三种身份之一：\n\n① 代码块：\n```\nsynchronized (lock) {\n    // 临界区\n}\n```\n锁的是括号里这个对象的身份。\n\n② 实例方法：\n```\npublic synchronized void a() { ... }\n```\n等价于 synchronized(this)——锁的是当前实例。\n\n③ 静态方法：\n```\npublic static synchronized void b() { ... }\n```\n等价于 synchronized(Class.class)——锁的是类对象。\n\n这个区别设置起全明的种字游戏：对象锁（this）、类锁（Class）和多时不干预就能共存，但在并发运用中很容易造成死锁的根。"
+    },
+    {
+      "kind": "story",
+      "id": "wrong-lock",
+      "title": "错锁对象才是翻车的真正根源",
+      "body": "生产代码里最常见的活：\n\n· 两个保护同一状态的方法用了不同的锁对象——事实上等于没锁；\n· 或者某处是 synchronized(this)，某处又换了 synchronized(other)——临界区不一致。\n\n在这里的硬规则是：**保护同一堆共享状态的代码，必须从头到尾用同一把锁。**\n哪里断了，哪里就出什么事。"
+    },
+    {
+      "kind": "judge",
+      "id": "sell",
+      "title": "动手：窗口卖票不能超卖",
+      "packId": "m02-ticket-sell"
+    },
+    {
+      "kind": "done",
+      "id": "done",
+      "title": "锁的对象就是菜单的通行证",
+      "body": "三句印到脑子：\n① synchronized 锁的是对象的身份（哪个对象）；\n② 实例方法= this，静态方法= Class 对象，代码块=括号里那个；\n③ 同一个临界区必须完全用同一把锁，否则白搭。\n\n下一关就是业务关——丢票、转账。"
+    }
+  ]
+}

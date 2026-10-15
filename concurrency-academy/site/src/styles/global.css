@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: #0f766e;
+  --brand-ink: #134e4a;
+  --paper: #fbfbfa;
+  --ink: #1c1917;
+  --muted: #78716c;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, "PingFang SC", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display { font-weight: 700; letter-spacing: -0.01em; }
+.prose-lesson {
+  font-size: 0.95rem; line-height: 1.9;
+}
+.prose-lesson h2 { @apply mt-10 mb-3 text-xl font-bold text-stone-900; }
+.prose-lesson h3 { @apply mt-8 mb-2 text-base font-bold text-stone-800; }
+.prose-lesson p  { @apply my-3 text-stone-700; }
+.prose-lesson code:not(pre code) {
+  @apply rounded bg-stone-100 px-1.5 py-0.5 text-[0.85em] font-mono text-teal-800;
+}
+.prose-lesson pre {
+  @apply my-4 overflow-x-auto rounded-xl bg-stone-900 p-4 text-[13px] leading-6 text-stone-100;
+}
+.prose-lesson ul { @apply my-3 list-disc pl-6 text-stone-700; }
+.prose-lesson ol { @apply my-3 list-decimal pl-6 text-stone-700; }
+.prose-lesson blockquote { @apply my-4 border-l-4 border-teal-600 bg-teal-50/60 px-4 py-2 text-stone-700; }
+.prose-lesson a { @apply text-teal-700 underline decoration-teal-300 underline-offset-2 hover:decoration-teal-600; }

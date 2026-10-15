@@ -1,0 +1,16 @@
+---
+// 模拟器场景直出页：/sim/<scene> —— 也供课页以岛屿形式内嵌
+import Base from '../../layouts/Base.astro';
+import SimPlayer from '../../components/islands/SimPlayer';
+import { listScenes } from '../../sim/scenes';
+
+export function getStaticPaths() {
+  return listScenes().map((s) => ({ params: { scene: s.key }, props: { scene: s } }));
+}
+const { scene } = Astro.props;
+---
+<Base title={scene.title} description={scene.question}>
+  <div class="mx-auto max-w-3xl py-10">
+    <SimPlayer client:load sceneKey={scene.key} />
+  </div>
+</Base>

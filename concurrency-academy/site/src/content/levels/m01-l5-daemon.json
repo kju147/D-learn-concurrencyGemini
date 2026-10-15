@@ -1,0 +1,28 @@
+{
+  "title": "守护线程：那各自顾不着它的后台活",
+  "module": "m01",
+  "minutes": 15,
+  "level": "基础",
+  "evidence": "线程身份断言",
+  "conceptIds": ["m01.daemon-deprecated"],
+  "steps": [
+    {
+      "kind": "story",
+      "id": "hook",
+      "title": "钩子：main 退出了，为什么进程还在跑",
+      "body": "你开了一条后台线程还在干活，main() 早退完了。\n你以为“都退场了程序应该退”，但进程还挂着。\n\n任务就是分清两件事：\n· 生意线程之间：非守护线程没退完 JVM 不放过枪\n· 附带的后台活：主线程退位它就不再坚持，后台努力让车停下来。"
+    },
+    {
+      "kind": "story",
+      "id": "when-daemon",
+      "title": "什么时候该 daemon，什么时候不该",
+      "body": "关键看业务意义：\n\n· daemon：监控、心跳、日志、GC——业务退了它能让位；\n· 非 daemon（默认）：业务真正做完。\n\n代码就一行（要在 start() 之前调）：\n```\nThread t = new Thread(() -> work(), \"gc-heartbeat\");\nt.setDaemon(true); // 只有在 start() 之前调才有效\nt.start();\n```\n\n潜规则：JDK/Tomcat 里 Acceptor/Poller 都是守护线程，主动退主优先。"
+    },
+    {
+      "kind": "done",
+      "id": "done",
+      "title": "M01 的四把钥匙拿到手了",
+      "body": "目前你已经拥有的工具箱：\n起线程 start、join 汇合、getState 观测、interrupt 中止、daemon 身份。\n\n下一关：M02 共享状态不一样——这一步之后就开始操作真实的竞态窗口。"
+    }
+  ]
+}

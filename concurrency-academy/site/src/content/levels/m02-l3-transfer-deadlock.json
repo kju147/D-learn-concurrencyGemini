@@ -1,0 +1,34 @@
+{
+  "title": "转账：死锁的真实画面与解法",
+  "module": "m02",
+  "minutes": 25,
+  "level": "进阶",
+  "evidence": "故障注入",
+  "conceptIds": ["m02.business-invariants"],
+  "steps": [
+    {
+      "kind": "story",
+      "id": "hook",
+      "title": "钩子：两个人互转账的时候咋走到卡死的",
+      "body": "账户 A 转钱到 B，账户 B 同时转钱到 A。Lock order differs by direction.\n\n常见实现习惯写法是：锁住在当前对象（this）后，再去锁对方对象的为临界区。\n问题在于：A 拿住了自己，再伸手要 B；B 也是拿住了自己伸手要 A。\n双方谁都不会先放手——这就是死锁的画面感。"
+    },
+    {
+      "kind": "story",
+      "id": "deadlock-four",
+      "title": "死锁的四个必须条件",
+      "body": "死锁要成立必须同时满足四件事：\n① 互斥（锁不能共享）\n② 持有别（拿着东西不放还想要别人的）\n③ 不可剥夺（别人不能抢）\n④ 循环等待条件（A等B，B等A，形成环路）\n\n破解死锁=破坏四者之一。最常用的一点是破坏『循环等待』——让所有线程按同一顺序加锁。"
+    },
+    {
+      "kind": "judge",
+      "id": "transfer",
+      "title": "动手：两个账户互相转钱",
+      "packId": "m02-transfer-lock-order"
+    },
+    {
+      "kind": "done",
+      "id": "done",
+      "title": "破关",
+      "body": "你修的这段代码到哪里用：\n任何一个系统里「两资源复合操作」敬奉者——订单状态机、库存+支付。\nM03 会让我们实际调试时用到的 jstack thread dump 的角度。"
+    }
+  ]
+}

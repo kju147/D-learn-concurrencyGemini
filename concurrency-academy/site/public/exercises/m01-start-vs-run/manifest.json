@@ -1,0 +1,19 @@
+{
+  "id": "m01-start-vs-run",
+  "module": "m01",
+  "title": "线程真的在飞吗：start vs run",
+  "difficulty": "入门",
+  "timeoutSec": 60,
+  "probes": [
+    "threads",
+    "start"
+  ],
+  "starter": "Main.java",
+  "tests": "Tests.java",
+  "mission": "写一个真正的多线程任务：让 `work()` 在名字为 worker 的另一个线程里跑完，主线程等它完毕后再退出。判题会验证：① work() 真由名为 worker 的线程执行；② 主线程用 join 等方式等它结束；③ 活儿不能在 main 线程里被 run() 悄悄代跑。你只能修改 Main.java 的 main() 内逻辑。",
+  "hints": [
+    "若直接调 t.run()，任务就会当场在 main 里跑掉（没有新线程）",
+    "线程名怎么给？Thread 构造器第二个参数就是"
+  ],
+  "solution": "Solution.java"
+}

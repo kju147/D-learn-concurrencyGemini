@@ -1,0 +1,34 @@
+{
+  "title": "线程安全类的组合也是安全的吗？",
+  "module": "m02",
+  "minutes": 18,
+  "level": "进阶",
+  "evidence": "复合操作反例",
+  "conceptIds": ["m02.composition", "m02.linearizability"],
+  "steps": [
+    {
+      "kind": "story",
+      "id": "hook",
+      "title": "钩子：Hashtable 也不安全？",
+      "body": "通过《不能好名字的线程讲话》听过这样的传说：Hashtable 的方法都是 synchronized 的，所以它是线程安全的。\n\n那么，如果共享代码这样写会怎样？\n```\nHashtable<String, Integer> table = ...;\nif (table.get(\"key\") == null) {\n    table.put(\"key\", 1);\n}\n```\n\n两个线程都先查了一下都为 null，都往里 put 了同一场货——\n加锁的 get + 加锁的 put 各自的态，相加组合不是原子的。"
+    },
+    {
+      "kind": "story",
+      "id": "check-then-act",
+      "title": "检查后执行（check-then-act）的空开在哪",
+      "body": "一类竞态叫「检查后执行」：\n\n`if (table.get(k) == null) table.put(k, v)` \n\n· 每个方法本身线程安全\n· 但 检查 和 执行 这间窗口没人管\n\n修复的基本路数只有两种：\n① 用 synchronized 把这个方法粘起来；\n② 换工具（`ConcurrentHashMap.merge()`将一个键上的 read-modify-write 定义回原子的）。"
+    },
+    {
+      "kind": "judge",
+      "id": "merge",
+      "title": "动手：共享累加不能丢一次",
+      "packId": "m02-composition-atomicity"
+    },
+    {
+      "kind": "done",
+      "id": "done",
+      "title": "启发式",
+      "body": "线程安全的类+线程安全的方法组合 不等于 线程安全。\n记住这条，你下园子里什么栈一眼能查出来：\n凡是你能看到：「先查一下再决定做不做」的表达式，在共享可变状态面前都要再想想窗口。"
+    }
+  ]
+}

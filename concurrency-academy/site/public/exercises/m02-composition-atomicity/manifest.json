@@ -1,0 +1,16 @@
+{
+  "id": "m02-composition-atomicity",
+  "module": "m02",
+  "title": "检查后操作：杯子满了不能都喜欢往家再买一袋",
+  "difficulty": "标准",
+  "timeoutSec": 60,
+  "probes": [
+    "threads",
+    "synchronized",
+    "collections"
+  ],
+  "starter": "Main.java",
+  "tests": "Tests.java",
+  "solution": "Solution.java",
+  "mission": "两个线程都在往一个共享的 Map<String, Integer> 里累加同一个关键字的计数。如果你用「先 get 查再 put 覆盖」的写法，两个线程同时看到同一个旧值，各自 +1，只有一份被写进去，账就要散了。\n\n判题会架 8 个线程、每个对同一个键计数 5000 次，最后检查：键的总数必须是 40000；不允许有看不见的流失。"
+}

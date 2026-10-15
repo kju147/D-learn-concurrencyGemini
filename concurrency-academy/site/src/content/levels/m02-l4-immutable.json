@@ -1,0 +1,28 @@
+{
+  "title": "不可变对象：最安全的安全方式",
+  "module": "m02",
+  "minutes": 18,
+  "level": "基础",
+  "evidence": "重构练习",
+  "conceptIds": ["m02.immutability", "m02.escape"],
+  "steps": [
+    {
+      "kind": "story",
+      "id": "hook",
+      "title": "钩子：SimpleDateFormat 是危险王",
+      "body": "很多 Spring 老项目里有个误区：`SimpleDateFormat` 不是线程安全的。\n当你把它当成 Servlet 的成员字段放出来时，两个线程同时 `parse` 就会炸数据。\n解法是老办法之一：DateTimeFormatter 是不可变类，天然可以共享。"
+    },
+    {
+      "kind": "story",
+      "id": "immutability",
+      "title": "不可变类的四点条件",
+      "body": "一个类不可变要同时满足：\n① 所有字段都是 final 的；\n② 构造函数里把一切都赋完，外面不许改；\n③ 类不许被继承（避免子类破坏）；\n④ 返回可变的心情状态时要做防御性拷贝。\n\n满足这四条的类，即使一百个线程同时用也是安全的——不用加锁。"
+    },
+    {
+      "kind": "done",
+      "id": "done",
+      "title": "这一课的含义比较深",
+      "body": "不可变不是信仰，是成本归一：锁的代价你省下来，代价是申请对象时会多点垃圾对象回收——但远比加锁各种栈。\n\nM02 完。下一章是线程协作（wait/notify、合作工作等技术范式）。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "_note": "本地文件由管理员粘贴全文而来（用户消息），表示采纳；完整内容以消息原文为准，此处为结构化合规摘要--如需改回全量请以你会话内容为准",
+  "schemaVersion": 1,
+  "targetRuntime": "JDK 25",
+  "sources": {
+    "notes-main": "并发编程.pdf（181 页）",
+    "notes-principles": "并发编程_原理.pdf（106 页）",
+    "notes-patterns": "并发编程_模式.pdf（33 页）",
+    "notes-applications": "并发编程_应用.pdf（27 页）",
+    "examples": "concurrent 目录（排除 target 后 158 个 Java 源文件；本轮清点）",
+    "modernization": "Java SE 25 规范、正式 API、单列预览 API、官方工具资料",
+    "engineering": "Spring 与生产工程实践补充"
+  },
+  "assessmentPolicy": {
+    "recognition": "选择与判断只用于概念辨析和结果预测",
+    "manualCodeMinimumPerCoreModule": 2,
+    "completionRule": "核心模块必须同时通过手写代码、自动测试和解释题，不能只靠选择题通关",
+    "realRunnerRequired": true
+  },
+  "codeExercisePlan": {
+    "m01": 6, "m02": 8, "m03": 8, "m04": 6, "m05": 7, "m06": 7,
+    "m07": 9, "m08": 8, "m09": 7, "m10": 7, "m11": 6, "m12": 8, "m13": 10
+  },
+  "modules": "14 个模块 × 155 知识点的完整明细见用户提供的原文；本文件仅保留政策与 runtimePolicy 用于校验。",
+  "runtimePolicy": {
+    "baseline": 25,
+    "previewDefault": false,
+    "browserRuntime": {
+      "jdk": 21,
+      "engine": "OpenJDK Zero / Emscripten",
+      "status": "legacy-candidate",
+      "upgradeTo25": "requires-build-and-capability-verification"
+    },
+    "sourceImplementation": "固定发行版、补丁版本、源码 tag/commit 与 JVM 配置后讲解实现",
+    "comparisonVersions": [8, 21, 25],
+    "ledger": "../curriculum/coverage-ledger.json"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "m02-lost-update-counter",
+  "module": "m02",
+  "title": "修复丢失更新的计数器",
+  "difficulty": "入门",
+  "timeoutSec": 60,
+  "probes": [
+    "threads",
+    "start-join",
+    "synchronized"
+  ],
+  "starter": "Counter.java",
+  "tests": "Tests.java",
+  "mission": "线上盘点系统丢了 2000 笔库存记录，定位到下面这个 Counter。两个线程各调用 5000 次 increment，结果必须恒为 10000。只允许在本类内部加同步手段，不许换 AtomicInteger（那是下一关的内容）。判题器会跑 5 轮，每轮断言 10000，全绿才算过。",
+  "hints": [
+    "先在只改一个方法的情况下让它过：给 increment 加什么修饰？",
+    "想想 simScenes 里对照组那把 room 锁等价到实例上是什么对象。"
+  ],
+  "solution": "Solution.java"
+}

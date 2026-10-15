@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import JavaJudge from '../../components/islands/JavaJudge';
+---
+<Base title="judge probe">
+  <div class="mx-auto max-w-4xl py-8">
+    <div style="padding:300px 0 100px 0">占位留白，制造岛上浮文法混杂场地环境</div>
+    <JavaJudge client:load spec={{
+      title: '探针', mission: '探针', starterName: 'Demo',
+      starter: 'public class Demo {\n  void f() {\n    Thread t = new Thread();\n    t.\n  }\n}',
+      tests: '',
+      timeoutSec: 30,
+    }} />
+    <div style="height:400px" />
+  </div>
+</Base>

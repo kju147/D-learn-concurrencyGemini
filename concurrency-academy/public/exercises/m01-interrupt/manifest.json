@@ -1,0 +1,11 @@
+{
+  "id": "m01-interrupt",
+  "moduleId": "M01",
+  "title": "写一个不会丢中断的后台任务",
+  "revision": 2,
+  "entry": "InventorySync",
+  "tests": "Judge",
+  "starter": "InventorySyncStarter.java",
+  "timeoutSec": 60,
+  "notes": "中断是协作协议：sleep/wait 被打断时 InterruptedException 会吃掉标记，必须恢复或向上抛。"
+}

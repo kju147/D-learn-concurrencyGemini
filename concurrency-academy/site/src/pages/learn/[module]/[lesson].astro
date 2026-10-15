@@ -1,0 +1,64 @@
+---
+// 课页路由：/learn/<module>/<lesson> —— 平台的根单元
+import { getCollection } from 'astro:content';
+import Base from '../../../layouts/Base.astro';
+import { getModule } from '../../../lib/curriculum';
+
+export async function getStaticPaths() {
+  const lessons = await getCollection('lessons', ({ data }) => !data.draft);
+  return lessons.map((entry) => ({
+    params: { module: entry.data.module, lesson: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const mod = getModule(entry.data.module);
+---
+<Base title={entry.data.title} description={entry.data.subtitle}>
+  <article class="py-10">
+    <header class="mx-auto max-w-3xl">
+      <div class="flex flex-wrap items-center gap-2 text-xs">
+        {mod && <a href={`/learn/${mod.id}`} class="rounded-full bg-teal-100 px-3 py-1 font-semibold text-teal-800">{mod.index} · {mod.title}</a>}
+        <span class="rounded-full border border-stone-300 px-3 py-1 text-stone-600">约 {entry.data.minutes} 分钟</span>
+        <span class="rounded-full border border-stone-300 px-3 py-1 text-stone-600">{entry.data.level}</span>
+        {entry.data.jdkEra === 'historical' && (
+          <span class="rounded-full bg-amber-100 px-3 py-1 font-semibold text-amber-800">🏛 历史博物馆 · {entry.data.jdkNote ?? 'JDK 8 时代内容'}</span>
+        )}
+      </div>
+      <h1 class="font-display mt-4 text-3xl leading-tight">{entry.data.title}</h1>
+      <p class="mt-2 text-stone-500">{entry.data.subtitle}</p>
+
+      {(entry.data.outcomes.length > 0 || entry.data.nonGoals.length > 0) && (
+        <div class="mt-5 grid gap-3 sm:grid-cols-2">
+          <div class="rounded-xl border border-teal-200 bg-teal-50/60 p-4 text-sm">
+            <p class="font-semibold text-teal-900">学完你能</p>
+            <ul class="mt-1.5 list-disc pl-5 text-teal-900/80">
+              {entry.data.outcomes.map((o) => <li>{o}</li>)}
+            </ul>
+          </div>
+          {entry.data.nonGoals.length > 0 && (
+            <div class="rounded-xl border border-stone-200 bg-stone-50 p-4 text-sm">
+              <p class="font-semibold text-stone-700">本课不保证</p>
+              <ul class="mt-1.5 list-disc pl-5 text-stone-600">
+                {entry.data.nonGoals.map((o) => <li>{o}</li>)}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
+    </header>
+
+    <div class="prose-lesson mx-auto mt-8 max-w-3xl">
+      <Content />
+    </div>
+
+    <footer class="mx-auto mt-12 max-w-3xl border-t border-stone-200 pt-6 text-xs text-stone-500">
+      <p>内容有误？<a class="underline" href="#" >在 GitHub 上编辑本课</a>（开源后生效）· 下方讨论区由 GitHub Discussions 提供</p>
+      {/* Giscus 挂载点：开源仓库公开后启用
+      <script src="https://giscus.app/client.js" data-repo="..." data-mapping="pathname" data-theme="light" crossorigin="anonymous" async />
+      */}
+    </footer>
+  </article>
+</Base>

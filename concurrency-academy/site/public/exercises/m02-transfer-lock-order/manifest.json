@@ -1,0 +1,19 @@
+{
+  "id": "m02-transfer-lock-order",
+  "module": "m02",
+  "title": "在两个银行账户之间转钱，不出现死锁",
+  "difficulty": "困难",
+  "timeoutSec": 90,
+  "probes": [
+    "threads",
+    "synchronized"
+  ],
+  "starter": "Main.java",
+  "tests": "Tests.java",
+  "mission": "A→B 与 B→A 两个方向同时转账。现状实现是『先锁自己，再锁对方』——并发下这几乎必死在半路上（各自抱着自己锁等对方放锁）。\n请用一种不引入额外协调对象的修法修好它（统一加锁顺序）。\n程序 stdout 要打印「转账完成」。判题会真的给你双双互转 1000 次，然后用线程 MXBean 查有没有死锁。",
+  "hints": [
+    "死锁的触发条件是：两个线程分别协商了『先 A 后 B』与『先 B 后 A』的锁顺序",
+    "按账号身份的固定顺序加锁，就能让『先拿账号小的再拿大的』成为所有线程的一致规则"
+  ],
+  "solution": "Solution.java"
+}

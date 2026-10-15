@@ -1,0 +1,34 @@
+{
+  "title": "join：怎么让一个线程等另一个线程把菜端上来",
+  "module": "m01",
+  "minutes": 20,
+  "level": "基础",
+  "evidence": "编排练习",
+  "conceptIds": ["m01.join-sleep"],
+  "steps": [
+    {
+      "kind": "story",
+      "id": "hook",
+      "title": "钩子：你需要借口，需要同事干不完能走吗？",
+      "body": "前辈让我做个东西——下载一份报表，跑出来给主线程用。\n用 Runnable 起了个跑腿线程，可 Runnable 没有返回值。怎么拿回来？\n\n最常见的错误收尾是：\n```\nstatic int r = 0;\n```\n主线程不等跑腿线程干完就读了 r，读到的还是初始值 0。\n\n这就是 join 要解决的：合理安排“等别人把活干完”的调度。"
+    },
+    {
+      "kind": "story",
+      "id": "join-what",
+      "title": "join 在干什么，它的边界在哪",
+      "body": "join() = 调用方让目标线程先跑完。\n\n最小写法：\n```\nThread t1 = new Thread(() -> doThing());\nt1.start();\nt1.join(); // 等 t1 彻底跑完，主线程在调用位进入 WAITING\nSystem.out.println(\"t1 完了我才到这\");\n```\n\n带超时（最多等多久）：\n```\nt1.join(1500); // 1.5 秒没跑完主线程就自己接着走\n```\n\n✅ 什么时候 join：要拿别人线程的结果、要等多个人都就位\n❌ 什么时候别用：后台/常驻任务——没有一个\"完了\"可以等"
+    },
+    {
+      "kind": "judge",
+      "id": "judge",
+      "title": "动手：烧水泡茶——统筹多线程汇合",
+      "packId": "m01-join-orchestrate"
+    },
+    {
+      "kind": "done",
+      "id": "done",
+      "title": "能读到这里你已经比 70% 的日常服务开发者强了",
+      "body": "这一关不是终点，是你养成这个习惯的开始：\n每一个起了线程的地方，都可以被强问一句——\n「那谁等它、怎么知道干完了？」\n\nM01 后续的坑：中断（cancel 的友好方式）、守护线程、Yield 与调度暗示。"
+    }
+  ]
+}

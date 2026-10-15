@@ -1,0 +1,20 @@
+{
+  "id": "m01-interrupt-loop",
+  "module": "m01",
+  "title": "中断：不散沙，才是你的线程",
+  "difficulty": "标准",
+  "timeoutSec": 60,
+  "probes": [
+    "threads",
+    "interrupt",
+    "sleep"
+  ],
+  "starter": "Main.java",
+  "tests": "Tests.java",
+  "mission": "写一个后台监控线程：循环里干一件事（打印一行），sleep一秒后能否被主线程正确打断并退出。要求：\n① 线程循环的退出条件是 `!Thread.currentThread().isInterrupted()`；\n② sleep 被中断后捕获 InterruptedException 后必须恢复中断标记，并用清溢出的判断顺序退出；\n③ 程序最后必须能看到监控线程 TERMINATED 状态。\nJudger 会验证“在 sleep 里打断会不会忽也大老退”—别响应一次中断最后还得回来传话。",
+  "hints": [
+    "interrupt 不是杀伤力动作，它是个信号",
+    "sleep 被打断会抛异常并清标记，所以 catch 里要把它再举回来"
+  ],
+  "solution": "Solution.java"
+}

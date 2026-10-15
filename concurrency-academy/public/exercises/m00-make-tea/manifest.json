@@ -1,0 +1,11 @@
+{
+  "id": "m00-make-tea",
+  "moduleId": "M00",
+  "title": "烧水泡茶统筹法",
+  "revision": 1,
+  "entry": "BrewTea",
+  "tests": "Judge",
+  "starter": "BrewTeaStarter.java",
+  "timeoutSec": 60,
+  "notes": "让两件事情并行,而不是一个在另一个睡了好几秒才溜胸。判定点：两个工作线程名字、执行顺序、主线程最后才会输出。" 
+}

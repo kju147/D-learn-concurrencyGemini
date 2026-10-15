@@ -1,0 +1,59 @@
+---
+// 站点外壳：导航 / 搜索入口 / Giscus 挂载点 / 页脚
+import '../styles/global.css';
+import { SITE } from '../lib/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+const pageTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} · ${SITE.tagline}`;
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body class="min-h-screen">
+    <header class="sticky top-0 z-40 border-b border-stone-200 bg-[--paper]/85 backdrop-blur">
+      <div class="mx-auto flex h-14 max-w-6xl items-center gap-1 px-4">
+        <a href="/" class="mr-3 flex items-center gap-2 font-display text-base">
+          <span class="grid size-7 place-items-center rounded-lg bg-teal-700 text-white text-sm">⚡</span>
+          {SITE.name}
+        </a>
+        <nav class="hidden items-center gap-1 text-sm md:flex">
+          <a class="rounded-md px-3 py-1.5 text-stone-600 hover:bg-stone-100" href="/learn">课程地图</a>
+          <a class="rounded-md px-3 py-1.5 text-stone-600 hover:bg-stone-100" href="/playground">并发沙盒</a>
+          <a class="rounded-md px-3 py-1.5 text-stone-600 hover:bg-stone-100" href="/exercise">判题练习</a>
+          <a class="rounded-md px-3 py-1.5 text-stone-600 hover:bg-stone-100" href="/glossary">名词词典</a>
+          <a class="rounded-md px-3 py-1.5 text-stone-600 hover:bg-stone-100" href="/project/flashflow">FlashFlow</a>
+        </nav>
+        <div class="ml-auto flex items-center gap-2">
+          <a
+            class="rounded-md border border-stone-300 px-3 py-1.5 text-xs font-medium text-stone-600 hover:bg-stone-100"
+            href={SITE.repo}
+            rel="noopener"
+            target="_blank"
+          >GitHub</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-4">
+      <slot />
+    </main>
+
+    <footer class="mt-20 border-t border-stone-200 py-10 text-center text-xs text-stone-500">
+      <p>
+        {SITE.name} · 内容许可 CC BY-SA 4.0 · 代码 MIT ·
+        <a class="underline" href="/changelog">更新日志</a> ·
+        <a class="underline" href="/rss.xml">RSS</a>
+      </p>
+    </footer>
+  </body>
+</html>
