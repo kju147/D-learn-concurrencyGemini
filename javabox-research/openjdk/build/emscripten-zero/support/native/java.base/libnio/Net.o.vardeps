@@ -1,0 +1,1 @@
+BUILD_LIBNIO_Net.c_VARDEPS_old := -Wno-unused-function -Wno-unused-variable

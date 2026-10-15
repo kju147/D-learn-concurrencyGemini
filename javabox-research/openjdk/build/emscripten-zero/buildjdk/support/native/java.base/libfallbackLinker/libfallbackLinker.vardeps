@@ -1,0 +1,1 @@
+BUILD_LIBFALLBACKLINKER_VARDEPS_old := /usr/bin/clang -shared -Wl,-z,origin -Wl,-rpath,\$$ORIGIN -Wl,-soname=libfallbackLinker.so -L/usr/lib/x86_64-linux-gnu -l:libffi.so.8 --strip-debug

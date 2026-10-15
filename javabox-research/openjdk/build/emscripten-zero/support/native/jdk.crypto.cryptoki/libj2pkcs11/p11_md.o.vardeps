@@ -1,0 +1,1 @@
+BUILD_LIBJ2PKCS11_p11_md.c_VARDEPS_old := -Wno-unused-variable

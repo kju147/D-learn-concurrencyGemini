@@ -1,0 +1,4 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/TimeZone_md.c:101:11: warning: initializing 'char *' with an expression of type 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  101 |     char *pos = strstr((const char *)str, zidir);
+      |           ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.

@@ -1,0 +1,1 @@
+BUILD_LIBJVM_sharedRuntimeTrig.cpp_VARDEPS_old := -ffp-contract=off -O2

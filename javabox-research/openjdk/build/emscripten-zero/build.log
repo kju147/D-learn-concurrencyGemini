@@ -1,0 +1,105 @@
+Building target 'images' in configuration 'emscripten-zero'
+Adding -zero KNOWN to jvm.cfg
+Adding -server IGNORE to jvm.cfg
+Adding -client IGNORE to jvm.cfg
+Creating symlink jdk/lib/jvm.cfg
+Building JVM variant 'zero' with features 'cds epsilongc jni-check jvmti management parallelgc serialgc services vm-structs zero'
+Processing hotspot
+[buildjdk] Adding -server KNOWN to jvm.cfg
+[buildjdk] Adding -client IGNORE to jvm.cfg
+[buildjdk] Creating symlink buildjdk/jdk/lib/jvm.cfg
+[buildjdk] Building JVM variant 'server' with features 'cds compiler1 compiler2 g1gc serialgc'
+[buildjdk] Processing hotspot
+Processing PlatformProps.java
+[buildjdk] Processing PlatformProps.java
+[buildjdk] Compiling up to 3368 files for java.base
+Compiling up to 3368 files for java.base
+Creating support/modules_libs/jdk.crypto.cryptoki/libj2pkcs11.so from 14 file(s)
+Compiling j2secmod.c (for libj2pkcs11.so)
+Compiling j2secmod_md.c (for libj2pkcs11.so)
+Linking javac
+Linking serialver
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: too many errors emitted, stopping now (use -error-limit=0 to see all errors)
+emcc: error: '/root/opt/emsdk/upstream/bin/wasm-ld -o /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_cmds/jdk.compiler/javac.wasm -L/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/jdk.compiler/javac/main.o /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so -L/root/opt/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -lGL -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /tmp/tmpxfhxu8mvlibemscripten_js_symbols.so --strip-debug --export-if-defined=main --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__main_argc_argv --export-if-defined=fflush --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=stackSave --export=stackRestore --export=stackAlloc --export=__errno_location --export=__get_temp_ret --export=__set_temp_ret --export=__wasm_call_ctors --export-table -z stack-size=65536 --initial-memory=16777216 --no-entry --max-memory=16777216 --stack-first' failed (returned 1)
+Compiling p11_convert.c (for libj2pkcs11.so)
+gmake[3]: *** [modules/jdk.compiler/Launcher.gmk:36: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_cmds/jdk.compiler/javac] Error 1
+gmake[2]: *** [make/Main.gmk:211: jdk.compiler-launchers] Error 2
+Compiling p11_crypt.c (for libj2pkcs11.so)
+..
+Compiling p11_digest.c (for libj2pkcs11.so)
+Creating support/modules_cmds/jdk.httpserver/jwebserver from 1 file(s)
+Compiling main.c (for jwebserver)
+Compiling p11_dual.c (for libj2pkcs11.so)
+Compiling p11_general.c (for libj2pkcs11.so)
+Compiling p11_keymgmt.c (for libj2pkcs11.so)
+Compiling p11_md.c (for libj2pkcs11.so)
+Linking jwebserver
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: too many errors emitted, stopping now (use -error-limit=0 to see all errors)
+emcc: error: '/root/opt/emsdk/upstream/bin/wasm-ld -o /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_cmds/jdk.httpserver/jwebserver.wasm -L/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/jdk.httpserver/jwebserver/main.o /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so -L/root/opt/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -lGL -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /tmp/tmpsbnqrjw4libemscripten_js_symbols.so --strip-debug --export-if-defined=main --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__main_argc_argv --export-if-defined=fflush --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=stackSave --export=stackRestore --export=stackAlloc --export=__errno_location --export=__get_temp_ret --export=__set_temp_ret --export=__wasm_call_ctors --export-table -z stack-size=65536 --initial-memory=16777216 --no-entry --max-memory=16777216 --stack-first' failed (returned 1)
+gmake[3]: *** [modules/jdk.httpserver/Launcher.gmk:36: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_cmds/jdk.httpserver/jwebserver] Error 1
+gmake[2]: *** [make/Main.gmk:211: jdk.httpserver-launchers] Error 2
+Compiling p11_mutex.c (for libj2pkcs11.so)
+[buildjdk] Compiling up to 101 files for jdk.jlink
+Compiling p11_objmgmt.c (for libj2pkcs11.so)
+Compiling p11_sessmgmt.c (for libj2pkcs11.so)
+Compiling p11_sign.c (for libj2pkcs11.so)
+Compiling p11_util.c (for libj2pkcs11.so)
+Linking libj2pkcs11.so
+emcc: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+emcc: warning: ignoring unsupported linker flag: `-soname=libj2pkcs11.so` [-Wlinkflags]
+wasm-ld: warning: unknown -z value: origin
+Copying jdk/lib/libj2pkcs11.so
+Updating support/src.zip
+[buildjdk] Creating interim java.base.jmod
+[buildjdk] Creating interim jimage
+
+ERROR: Build failed for target 'images' in configuration 'emscripten-zero' (exit code 2)
+----- Build times -------
+Start 2026-10-15 14:06:25
+End   2026-10-15 14:22:26
+
+00:16:01 TOTAL
+-------------------------

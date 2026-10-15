@@ -1,0 +1,1 @@
+BUILD_LIBJVM_management.cpp_VARDEPS_old := -Wno-missing-field-initializers

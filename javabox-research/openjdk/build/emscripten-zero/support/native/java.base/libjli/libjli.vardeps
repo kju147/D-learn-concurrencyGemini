@@ -1,0 +1,1 @@
+BUILD_LIBJLI_VARDEPS_old := /root/opt/emsdk/upstream/emscripten/emcc -shared -Wl,-z,origin -Wl,-rpath,\$$ORIGIN -Wl,-soname=libjli.so --strip-debug

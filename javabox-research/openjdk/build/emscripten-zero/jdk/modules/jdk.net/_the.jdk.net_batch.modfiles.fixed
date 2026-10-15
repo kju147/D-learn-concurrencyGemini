@@ -1,0 +1,13 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.net/linux/classes/jdk/net/LinuxSocketOptions.java
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.net/share/classes/jdk/net/ExtendedSocketOptions.java
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.net/share/classes/jdk/net/NetworkPermission.java
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.net/share/classes/jdk/net/Sockets.java
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.net/share/classes/jdk/net/UnixDomainPrincipal.java
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.net/share/classes/jdk/net/package-info.java
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.net/share/classes/jdk/nio/Channels.java
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.net/share/classes/jdk/nio/package-info.java
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.net/share/classes/module-info.java
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/jdk/modules/jdk.net/_the.jdk.net.vardeps
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildtools/depend/_the.COMPILE_DEPEND_batch
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/jdk/modules/jdk.net/_the.jdk.net-javacserver.conf
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/jdk/modules/java.base/_the.java.base_pubapi

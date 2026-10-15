@@ -1,0 +1,1 @@
+BUILD_LIBJVM_postaloc.cpp_VARDEPS_old := -Wno-tautological-undefined-compare

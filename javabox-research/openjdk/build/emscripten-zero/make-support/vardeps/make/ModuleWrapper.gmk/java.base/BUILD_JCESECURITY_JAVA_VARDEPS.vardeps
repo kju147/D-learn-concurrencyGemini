@@ -1,0 +1,1 @@
+BUILD_JCESECURITY_JAVA_VARDEPS_old := /usr/bin/cat /usr/bin/sed -e 's/@@JCE_DEFAULT_POLICY@@/unlimited/g'

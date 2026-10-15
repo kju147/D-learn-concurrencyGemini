@@ -1,0 +1,1 @@
+BUILD_LIBJVM_serviceThread.cpp_VARDEPS_old := -Wno-bitwise-instead-of-logical

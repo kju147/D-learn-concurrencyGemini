@@ -1,0 +1,1 @@
+BUILD_LIBJVM_codeBuffer.cpp_VARDEPS_old := -Wno-tautological-undefined-compare

@@ -1,0 +1,1 @@
+/usr/bin/nm /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/hotspot/variant-zero/libjvm/objs/globalDefinitions.o 2>&1 | /usr/bin/grep -e _ZdaPv -e _ZdlPv -e _Znam -e _Znwm | /usr/bin/grep ' U ' > /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/hotspot/variant-zero/libjvm/objs/globalDefinitions.o.op_check || true

@@ -1,0 +1,44 @@
+Building target 'hotspot' in configuration 'emscripten-zero'
+Creating support/modules_libs/java.base/zero/libjvm.so from 1 file(s)
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/emscripten/os_emscripten.cpp:26:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/classfile/vmSymbols.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/classfile/vmIntrinsics.hpp:30:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp:566:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/cpu/zero/globalDefinitions_zero.hpp:39:
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:302:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:386:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:412:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:441:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/emscripten/os_emscripten.cpp:634:26: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+  st->print(" %dk page", os::vm_page_size() >> 10);
+              ~~         ^~~~~~~~~~~~~~~~~~~~~~~~
+              %zu
+5 warnings generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/abstract_vm_version.cpp:25:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/cds/cdsConfig.hpp:29:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp:566:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/cpu/zero/globalDefinitions_zero.hpp:39:
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:302:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:386:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:412:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:441:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+4 warnings generated.
+em++: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+em++: warning: ignoring unsupported linker flag: `-soname=libjvm.so` [-Wlinkflags]
+Finished building target 'hotspot' in configuration 'emscripten-zero'

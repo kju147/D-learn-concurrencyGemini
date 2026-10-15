@@ -1,0 +1,31 @@
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/flags/jvmFlagLimit.cpp:25:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/memory/allocation.inline.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/memory/allocation.hpp:29:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/nmt/memTag.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp:566:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/cpu/zero/globalDefinitions_zero.hpp:39:
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:302:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:386:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:412:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:441:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/flags/jvmFlagLimit.cpp:105:2: warning: implicit conversion from 'const jlong' (aka 'const long long') to 'double' changes value from 9218868437227405311 to 9218868437227405312 [-Wimplicit-const-int-float-conversion]
+ ALL_FLAGS(FLAG_LIMIT_DEFINE_DUMMY,
+ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/flags/allFlags.hpp:100:3: note: expanded from macro 'ALL_FLAGS'
+  RUNTIME_FLAGS(              \
+  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/globals.hpp:1283:20: note: expanded from macro 'RUNTIME_FLAGS'
+          range(0, max_jlongDouble LP64_ONLY(/MICROUNITS))                  \
+                   ^~~~~~~~~~~~~~~
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/flags/jvmFlagLimit.cpp:99:58: note: expanded from macro 'APPLY_FLAG_RANGE'
+#define APPLY_FLAG_RANGE(...)                          , __VA_ARGS__
+                                                         ^~~~~~~~~~~
+5 warnings generated.

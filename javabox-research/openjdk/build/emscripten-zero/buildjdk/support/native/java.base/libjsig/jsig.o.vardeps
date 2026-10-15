@@ -1,0 +1,1 @@
+BUILD_LIBJSIG_jsig.c_VARDEPS_old := -DHOTSPOT_VM_DISTRO='"OpenJDK"' -Wno-unused-but-set-variable

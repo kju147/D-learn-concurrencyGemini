@@ -1,0 +1,1 @@
+BUILD_LIBJVM_os_posix.cpp_VARDEPS_old := -Wno-mismatched-tags -Wno-missing-field-initializers

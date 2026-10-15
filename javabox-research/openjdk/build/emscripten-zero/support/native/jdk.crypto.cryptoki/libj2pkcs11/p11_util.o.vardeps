@@ -1,0 +1,1 @@
+BUILD_LIBJ2PKCS11_p11_util.c_VARDEPS_old := -Wno-format-nonliteral

@@ -1,0 +1,334 @@
+Building target 'images' in configuration 'emscripten-zero'
+Creating support/modules_libs/java.base/jrt-fs.jar
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/arguments.cpp:25:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/cds/aotLogging.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/cds/cds_globals.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/globals_shared.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/align.hpp:31:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp:566:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/cpu/zero/globalDefinitions_zero.hpp:39:
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:302:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:386:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:412:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:441:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+4 warnings generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/abstract_vm_version.cpp:25:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/cds/cdsConfig.hpp:29:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp:566:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/cpu/zero/globalDefinitions_zero.hpp:39:
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:302:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:386:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:412:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:441:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+4 warnings generated.
+em++: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+em++: warning: ignoring unsupported linker flag: `-soname=libjvm.so` [-Wlinkflags]
+[buildjdk] Compiling up to 3368 files for java.base
+Compiling up to 3368 files for java.base
+Creating support/modules_libs/java.base/libverify.so from 0 file(s)
+Compiling up to 147 files for java.net.http
+Creating support/modules_libs/java.base/libjava.so from 0 file(s)
+Compiling up to 15 files for java.scripting
+Compiling up to 329 files for java.management
+Creating support/modules_libs/java.base/libzip.so from 0 file(s)
+Creating support/modules_libs/java.base/libjimage.so from 0 file(s)
+Creating support/modules_libs/java.base/libjli.so from 0 file(s)
+Creating support/modules_libs/java.base/libnet.so from 0 file(s)
+Creating support/modules_libs/java.base/libnio.so from 0 file(s)
+Creating support/modules_libs/java.base/libjsig.so from 0 file(s)
+Creating support/modules_libs/java.base/libsyslookup.so from 0 file(s)
+Creating support/modules_libs/java.base/libfallbackLinker.so from 0 file(s)
+Compiling up to 5 files for java.transaction.xa
+[buildjdk] Compiling up to 101 files for jdk.jlink
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/deflate.c:76:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/deflate.h:40:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzclose.c:30:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzguts.h:163:38: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+#if !defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0
+                                     ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzlib.c:30:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzguts.h:163:38: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+#if !defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0
+                                     ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzlib.c:35:37: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+#if defined(_LARGEFILE64_SOURCE) && _LFS64_LARGEFILE-0
+                                    ^
+2 warnings generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzread.c:30:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzguts.h:163:38: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+#if !defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0
+                                     ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzwrite.c:30:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzguts.h:163:38: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+#if !defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0
+                                     ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/infback.c:37:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/inffast.c:30:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/inflate.c:107:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/inftrees.c:30:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/trees.c:61:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/deflate.h:40:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zadler32.c:32:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zcrc32.c:54:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.c:32:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.c:34:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzguts.h:163:38: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+#if !defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0
+                                     ^
+2 warnings generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/inffast.c:30:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/inflate.c:107:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/inftrees.c:30:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+Updating support/src.zip
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zadler32.c:32:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zcrc32.c:54:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+1 warning generated.
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.c:32:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.h:196:39: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+    (!defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0)
+                                      ^
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/zutil.c:34:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzguts.h:163:38: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+#if !defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0
+                                     ^
+2 warnings generated.
+Compiling up to 272 files for java.xml.crypto
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:117:16: warning: function 'enumIPv4Interfaces' has internal linkage but is not defined [-Wundefined-internal]
+static netif  *enumIPv4Interfaces(JNIEnv *env, int sock, netif *ifs);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:383:19: note: used here
+            ifs = enumIPv4Interfaces(env, sock, ifs);
+                  ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:118:16: warning: function 'enumIPv6Interfaces' has internal linkage but is not defined [-Wundefined-internal]
+static netif  *enumIPv6Interfaces(JNIEnv *env, int sock, netif *ifs);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:401:15: note: used here
+        ifs = enumIPv6Interfaces(env, sock, ifs);
+              ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:134:16: warning: function 'getMacAddress' has internal linkage but is not defined [-Wundefined-internal]
+static int     getMacAddress(JNIEnv *env, const char *ifname,
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:599:15: note: used here
+        len = getMacAddress(env, name_utf, &iaddr, mac);
+              ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:127:16: warning: function 'openSocketWithFallback' has internal linkage but is not defined [-Wundefined-internal]
+static int     openSocketWithFallback(JNIEnv *env, const char *ifname);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:642:17: note: used here
+    if ((sock = openSocketWithFallback(env, name_utf)) < 0) {
+                ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:136:16: warning: function 'getMTU' has internal linkage but is not defined [-Wundefined-internal]
+static int     getMTU(JNIEnv *env, int sock, const char *ifname);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:647:11: note: used here
+    ret = getMTU(env, sock, name_utf);
+          ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:133:16: warning: function 'getFlags' has internal linkage but is not defined [-Wundefined-internal]
+static int     getFlags(int sock, const char *ifname, int *flags);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:679:11: note: used here
+    ret = getFlags(sock, name_utf, &flags);
+          ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:132:16: warning: function 'getIndex' has internal linkage but is not defined [-Wundefined-internal]
+static int     getIndex(int sock, const char *ifname);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:1002:26: note: used here
+         currif->index = getIndex(sock, name);
+                         ^
+7 warnings generated.
+Compiling up to 22 files for java.smartcardio
+Compiling up to 61 files for jdk.internal.jvmstat
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnio/MappedMemoryUtils.c:62:38: warning: passing 'mincore_vec_t *' (aka 'char *') to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    result = mincore(a, (size_t)len, vec);
+                                     ^~~
+/root/opt/emsdk/upstream/emscripten/cache/sysroot/include/sys/mman.h:138:45: note: passing argument to parameter here
+int mincore (void *, size_t, unsigned char *);
+                                            ^
+1 warning generated.
+Compiling up to 146 files for jdk.charsets
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libfallbackLinker/fallbackLinker.c:28:
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:302:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:386:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:412:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:441:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+4 warnings generated.
+emcc: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+emcc: warning: ignoring unsupported linker flag: `-soname=libverify.so` [-Wlinkflags]
+emcc: warning: ignoring dynamic library libjvm.so because not compiling to JS or HTML, remember to link it when compiling to JS or HTML at the end [-Wemcc]
+wasm-ld: warning: unknown -z value: origin
+emcc: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+emcc: warning: ignoring unsupported linker flag: `-soname=libjava.so` [-Wlinkflags]
+emcc: warning: ignoring dynamic library libjvm.so because not compiling to JS or HTML, remember to link it when compiling to JS or HTML at the end [-Wemcc]
+wasm-ld: warning: unknown -z value: origin
+emcc: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+emcc: warning: ignoring unsupported linker flag: `-soname=libzip.so` [-Wlinkflags]
+emcc: warning: ignoring dynamic library libjava.so because not compiling to JS or HTML, remember to link it when compiling to JS or HTML at the end [-Wemcc]
+emcc: warning: ignoring dynamic library libjvm.so because not compiling to JS or HTML, remember to link it when compiling to JS or HTML at the end [-Wemcc]
+wasm-ld: warning: unknown -z value: origin
+em++: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+em++: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+em++: warning: ignoring unsupported linker flag: `-soname=libjimage.so` [-Wlinkflags]
+em++: warning: ignoring dynamic library libjvm.so because not compiling to JS or HTML, remember to link it when compiling to JS or HTML at the end [-Wemcc]
+wasm-ld: warning: unknown -z value: origin
+emcc: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+emcc: warning: ignoring unsupported linker flag: `-soname=libjli.so` [-Wlinkflags]
+wasm-ld: warning: unknown -z value: origin
+emcc: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+emcc: warning: ignoring unsupported linker flag: `-soname=libnet.so` [-Wlinkflags]
+emcc: warning: ignoring dynamic library libjava.so because not compiling to JS or HTML, remember to link it when compiling to JS or HTML at the end [-Wemcc]
+emcc: warning: ignoring dynamic library libjvm.so because not compiling to JS or HTML, remember to link it when compiling to JS or HTML at the end [-Wemcc]
+wasm-ld: warning: unknown -z value: origin
+emcc: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+emcc: warning: ignoring unsupported linker flag: `-soname=libnio.so` [-Wlinkflags]
+emcc: warning: ignoring dynamic library libjava.so because not compiling to JS or HTML, remember to link it when compiling to JS or HTML at the end [-Wemcc]
+emcc: warning: ignoring dynamic library libnet.so because not compiling to JS or HTML, remember to link it when compiling to JS or HTML at the end [-Wemcc]
+wasm-ld: warning: unknown -z value: origin
+emcc: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+emcc: warning: ignoring unsupported linker flag: `-soname=libjsig.so` [-Wlinkflags]
+wasm-ld: warning: unknown -z value: origin
+emcc: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+emcc: warning: ignoring unsupported linker flag: `-soname=libsyslookup.so` [-Wlinkflags]
+emcc: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+emcc: warning: ignoring unsupported linker flag: `-soname=libfallbackLinker.so` [-Wlinkflags]
+wasm-ld: warning: unknown -z value: origin
+Compiling up to 52 files for jdk.internal.opt
+Compiling up to 14 files for jdk.zipfs
+Compiling up to 81 files for jdk.crypto.cryptoki
+Compiling up to 1 files for jdk.crypto.ec
+Compiling up to 67 files for jdk.dynalink
+[buildjdk] Creating interim java.base.jmod
+Compiling up to 3 files for jdk.internal.ed
+Compiling up to 58 files for jdk.httpserver
+Compiling up to 56 files for jdk.incubator.vector
+Compiling up to 118 files for jdk.internal.le
+Compiling up to 28 files for jdk.jartool
+Compiling up to 27 files for jdk.management
+[buildjdk] Creating interim jimage
+Compiling up to 1 files for jdk.jdwp.agent
+Compiling up to 321 files for jdk.jfr
+Compiling up to 4 files for jdk.jsobject
+Compiling up to 1542 files for jdk.localedata
+Compiling up to 9 files for jdk.net
+Compiling up to 3 files for jdk.nio.mapmode
+Compiling up to 33 files for jdk.sctp
+Compiling up to 9 files for jdk.unsupported
+Compiling up to 94 files for jdk.xml.dom
+Creating support/modules_cmds/jdk.compiler/javac from 1 file(s)
+Creating support/modules_cmds/jdk.compiler/serialver from 1 file(s)
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: too many errors emitted, stopping now (use -error-limit=0 to see all errors)
+emcc: error: '/root/opt/emsdk/upstream/bin/wasm-ld -o /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_cmds/jdk.compiler/javac.wasm -L/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/jdk.compiler/javac/main.o /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so -L/root/opt/emsdk/upstream/emscripten/cache/sysroot/lib/wasm32-emscripten -lGL -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr /tmp/tmpr6l1dz85libemscripten_js_symbols.so --strip-debug --export-if-defined=main --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=__main_argc_argv --export-if-defined=fflush --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=stackSave --export=stackRestore --export=stackAlloc --export=__errno_location --export=__get_temp_ret --export=__set_temp_ret --export=__wasm_call_ctors --export-table -z stack-size=65536 --initial-memory=16777216 --no-entry --max-memory=16777216 --stack-first' failed (returned 1)
+gmake[3]: *** [modules/jdk.compiler/Launcher.gmk:36: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_cmds/jdk.compiler/javac] Error 1
+gmake[2]: *** [make/Main.gmk:211: jdk.compiler-launchers] Error 2
+gmake[2]: *** Waiting for unfinished jobs....
+
+ERROR: Build failed for target 'images' in configuration 'emscripten-zero' (exit code 2)

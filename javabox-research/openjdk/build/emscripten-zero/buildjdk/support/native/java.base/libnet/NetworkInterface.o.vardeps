@@ -1,0 +1,1 @@
+BUILD_LIBNET_NetworkInterface.c_VARDEPS_old := -Wno-unused-function

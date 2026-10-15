@@ -1,0 +1,17 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnio/DatagramDispatcher.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnio/ch/DatagramDispatcher.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnio/ch/nio.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/sun_nio_ch_IOStatus.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnio/ch/nio_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/sun_nio_ch_DatagramDispatcher.h

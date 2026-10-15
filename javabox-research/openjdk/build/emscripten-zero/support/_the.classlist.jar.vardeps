@@ -1,0 +1,1 @@
+ARCHIVE_CLASSLIST_JAR_VARDEPS_old := /root/java25/bin/jar --date 2026-10-14T15:30:53Z /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildtools/classlist_classes/_the.CLASSLIST_JAR_batch /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildtools/classlist_classes build/tools/classlist

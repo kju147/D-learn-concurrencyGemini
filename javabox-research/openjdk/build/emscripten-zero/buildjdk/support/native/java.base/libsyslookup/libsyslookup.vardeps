@@ -1,0 +1,1 @@
+BUILD_LIBSYSLOOKUP_VARDEPS_old := /usr/bin/clang -shared -Wl,--no-as-needed -Wl,-soname=libsyslookup.so -ldl -lm --strip-debug

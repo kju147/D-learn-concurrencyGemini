@@ -1,0 +1,1 @@
+BUILD_LIBJAVA_TimeZone_md.c_VARDEPS_old := -Wno-unused-variable

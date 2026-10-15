@@ -1,0 +1,16 @@
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jlink/share/classes/jdk/tools/jimage/resources/jimage.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jlink/jdk/tools/jimage/resources/jimage.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jlink/share/classes/jdk/tools/jimage/resources/jimage_de.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jlink/jdk/tools/jimage/resources/jimage_de.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jlink/share/classes/jdk/tools/jimage/resources/jimage_ja.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jlink/jdk/tools/jimage/resources/jimage_ja.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jlink/share/classes/jdk/tools/jimage/resources/jimage_zh_CN.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jlink/jdk/tools/jimage/resources/jimage_zh_CN.java
+ListResourceBundle

@@ -1,0 +1,16 @@
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/resources/jarsigner.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jartool/sun/security/tools/jarsigner/resources/jarsigner.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/resources/jarsigner_de.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jartool/sun/security/tools/jarsigner/resources/jarsigner_de.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/resources/jarsigner_ja.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jartool/sun/security/tools/jarsigner/resources/jarsigner_ja.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jartool/share/classes/sun/security/tools/jarsigner/resources/jarsigner_zh_CN.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jartool/sun/security/tools/jarsigner/resources/jarsigner_zh_CN.java
+ListResourceBundle

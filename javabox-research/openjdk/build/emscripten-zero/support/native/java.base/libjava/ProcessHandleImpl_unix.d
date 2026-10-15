@@ -1,0 +1,11 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libjava/ProcessHandleImpl_unix.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/ProcessHandleImpl_unix.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_lang_ProcessHandleImpl.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_lang_ProcessHandleImpl_Info.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/ProcessHandleImpl_unix.h

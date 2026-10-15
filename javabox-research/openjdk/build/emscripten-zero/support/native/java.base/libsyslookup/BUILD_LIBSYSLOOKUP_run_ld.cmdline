@@ -1,0 +1,1 @@
+/root/opt/emsdk/upstream/emscripten/emcc -shared -Wl,-soname=libsyslookup.so -o /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libsyslookup.so /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libsyslookup/syslookup.o

@@ -1,0 +1,8 @@
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzlib.c:30:
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzguts.h:163:38: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+#if !defined(_LARGEFILE64_SOURCE) || _LFS64_LARGEFILE-0 == 0
+                                     ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libzip/zlib/gzlib.c:35:37: warning: '_LFS64_LARGEFILE' is not defined, evaluates to 0 [-Wundef]
+#if defined(_LARGEFILE64_SOURCE) && _LFS64_LARGEFILE-0
+                                    ^
+2 warnings generated.

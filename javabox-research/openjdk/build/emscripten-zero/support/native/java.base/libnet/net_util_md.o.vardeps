@@ -1,0 +1,1 @@
+BUILD_LIBNET_net_util_md.c_VARDEPS_old := -Wno-format-nonliteral -Wno-unused-variable

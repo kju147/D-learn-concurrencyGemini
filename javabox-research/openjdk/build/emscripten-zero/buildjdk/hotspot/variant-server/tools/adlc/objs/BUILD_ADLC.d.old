@@ -1,0 +1,210 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/adlArena.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/adlparse.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/archDesc.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/dfa.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dfa.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/dict2.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/filebuff.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/forms.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/formsopt.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/formssel.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/main.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/main.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/opcodes.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/output_c.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/output_c.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/tools/adlc/objs/output_h.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/output_h.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlArena.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlc.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/adlparse.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/archDesc.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dfa.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/dict2.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/filebuff.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/forms.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formsopt.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/formssel.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/main.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/output_c.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/adlc/output_h.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/adlcVMDeps.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/classes.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.cpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/opto/opcodes.hpp :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp :

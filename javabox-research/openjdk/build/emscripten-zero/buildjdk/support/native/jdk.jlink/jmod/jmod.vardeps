@@ -1,0 +1,1 @@
+BUILD_LAUNCHER_jmod_VARDEPS_old := /usr/bin/clang -L/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_libs/java.base -Wl,-rpath,\$$ORIGIN -Wl,-rpath,\$$ORIGIN/../lib -ljli --strip-debug

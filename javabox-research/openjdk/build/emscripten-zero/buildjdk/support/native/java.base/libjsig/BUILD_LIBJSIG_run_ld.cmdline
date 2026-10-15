@@ -1,0 +1,1 @@
+/usr/bin/clang -shared -Wl,-z,origin -Wl,-rpath,\$ORIGIN -Wl,-soname=libjsig.so -o /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_libs/java.base/libjsig.so /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjsig/jsig.o -ldl

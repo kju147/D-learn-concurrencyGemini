@@ -1,0 +1,1 @@
+BUILD_LIBJVM_g1ParScanThreadState.cpp_VARDEPS_old := -Wno-delete-abstract-non-virtual-dtor

@@ -1,0 +1,931 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Array.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Array.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_reflect_Array.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/BootLoader.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/BootLoader.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_loader_BootLoader.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/CDS.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/CDS.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_misc_CDS.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/CgroupMetrics.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/linux/native/libjava/CgroupMetrics.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_platform_CgroupMetrics.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Class.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Class.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/check_classname.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Class.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/ClassLoader.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ClassLoader.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/check_classname.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ClassLoader.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Console_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/Console_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_Console.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/ConstantPool.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ConstantPool.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_reflect_ConstantPool.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Continuation.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Continuation.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_vm_Continuation.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/ContinuationSupport.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ContinuationSupport.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_misc_PreviewFeatures.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Double.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Double.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Double.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Executable.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Executable.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_reflect_Executable.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Field.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Field.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_reflect_Field.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/FileDescriptor_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/FileDescriptor_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/io_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_FileDescriptor.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/FileInputStream.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/FileInputStream.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/io_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_FileInputStream.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/io_util_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/FileOutputStream.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/FileOutputStream.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/io_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/io_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_FileOutputStream.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Finalizer.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Finalizer.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ref_Finalizer.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Float.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Float.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Float.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/ForeignLinkerSupport.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ForeignLinkerSupport.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_vm_ForeignLinkerSupport.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/JdkConsoleImpl_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/JdkConsoleImpl_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_io_JdkConsoleImpl.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/LambdaProxyClassArchive.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/LambdaProxyClassArchive.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_invoke_LambdaProxyClassArchive.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Module.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Module.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Module.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/NativeAccessors.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/NativeAccessors.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_reflect_DirectMethodHandleAccessor_NativeAccessor.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_reflect_DirectConstructorHandleAccessor_NativeAccessor.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/NativeLibraries.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/NativeLibraries.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_loader_NativeLibraries.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/NullPointerException.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/NullPointerException.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_NullPointerException.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Object.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Object.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Object.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/ObjectStreamClass.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ObjectStreamClass.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_ObjectStreamClass.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/PhantomReference.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/PhantomReference.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ref_PhantomReference.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/PreviewFeatures.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/PreviewFeatures.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_misc_PreviewFeatures.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/ProcessEnvironment_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/ProcessEnvironment_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/ProcessHandleImpl_linux.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/linux/native/libjava/ProcessHandleImpl_linux.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ProcessHandleImpl.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ProcessHandleImpl_Info.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/ProcessHandleImpl_unix.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/ProcessHandleImpl_unix.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/ProcessHandleImpl_unix.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ProcessHandleImpl.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ProcessHandleImpl_Info.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/ProcessHandleImpl_unix.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/ProcessImpl_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/ProcessImpl_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/io_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/childproc.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/RandomAccessFile.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/RandomAccessFile.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/io_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/io_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_RandomAccessFile.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/RawNativeLibraries.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/RawNativeLibraries.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_loader_RawNativeLibraries.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Reference.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Reference.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ref_Reference.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Reflection.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Reflection.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_reflect_Reflection.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Runtime.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Runtime.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Runtime.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Shutdown.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Shutdown.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Shutdown.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Signal.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Signal.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_misc_Signal.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/StackFrameInfo.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/StackFrameInfo.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_StackFrameInfo.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/StackStreamFactory.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/StackStreamFactory.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_StackStreamFactory.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_StackStreamFactory_AbstractStackWalker.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/StackTraceElement.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/StackTraceElement.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_StackTraceElement.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/String.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/String.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_String.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/System.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/System.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/java_props.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_System.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_util_SystemProps_Raw.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Thread.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Thread.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Thread.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/ThreadSnapshot.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ThreadSnapshot.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_vm_ThreadSnapshot.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/Throwable.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Throwable.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Throwable.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/TimeZone.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/TimeZone.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/TimeZone_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_util_TimeZone.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/TimeZone_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/TimeZone_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/TimeZone_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/path_util.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/UnixFileSystem_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/UnixFileSystem_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jdk_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jdk_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/io_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/io_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_FileSystem.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_UnixFileSystem.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/VM.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/VM.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jdk_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jdk_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_misc_VM.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/VMSupport.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/VMSupport.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_vm_VMSupport.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/VM_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/VM_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/VirtualThread.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/VirtualThread.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_VirtualThread.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/canonicalize_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/canonicalize_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jdk_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jdk_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/path_util.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/check_classname.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/check_classname.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/check_classname.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/check_version.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/check_version.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/childproc.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/childproc.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/childproc.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/io_util.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/io_util.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/io_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/io_util_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/io_util_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/io_util_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/io_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/io_util_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/java_props_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/java_props_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/locale_str.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/java_props.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/jio.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jio.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/jni_util.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_String.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/jni_util_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/libjava/path_util.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/path_util.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/path_util.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_Console.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_FileDescriptor.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_FileInputStream.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_FileOutputStream.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_FileSystem.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_ObjectStreamClass.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_RandomAccessFile.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_io_UnixFileSystem.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Class.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ClassLoader.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Double.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Float.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Module.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_NullPointerException.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Object.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ProcessHandleImpl.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ProcessHandleImpl_Info.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Runtime.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Shutdown.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_StackFrameInfo.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_StackStreamFactory.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_StackStreamFactory_AbstractStackWalker.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_StackTraceElement.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_String.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_System.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Thread.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_Throwable.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_VirtualThread.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_invoke_LambdaProxyClassArchive.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ref_Finalizer.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ref_PhantomReference.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_ref_Reference.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_reflect_Array.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_reflect_Executable.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_lang_reflect_Field.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/java_util_TimeZone.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_io_JdkConsoleImpl.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_loader_BootLoader.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_loader_NativeLibraries.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_loader_RawNativeLibraries.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_misc_CDS.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_misc_PreviewFeatures.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_misc_Signal.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_misc_VM.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_platform_CgroupMetrics.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_reflect_ConstantPool.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_reflect_DirectConstructorHandleAccessor_NativeAccessor.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_reflect_DirectMethodHandleAccessor_NativeAccessor.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_reflect_Reflection.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_util_SystemProps_Raw.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_vm_Continuation.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_vm_ForeignLinkerSupport.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_vm_ThreadSnapshot.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/headers/java.base/jdk_internal_vm_VMSupport.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/linux/native/libjava/CgroupMetrics.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/linux/native/libjava/ProcessHandleImpl_linux.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Array.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/BootLoader.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/CDS.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Class.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ClassLoader.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ConstantPool.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Continuation.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ContinuationSupport.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Double.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Executable.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Field.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/FileInputStream.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/FileOutputStream.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Finalizer.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Float.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ForeignLinkerSupport.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/LambdaProxyClassArchive.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Module.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/NativeAccessors.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/NativeLibraries.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/NullPointerException.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Object.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ObjectStreamClass.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/PhantomReference.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/PreviewFeatures.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/RandomAccessFile.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/RawNativeLibraries.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Reference.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Reflection.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Runtime.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Shutdown.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Signal.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/StackFrameInfo.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/StackStreamFactory.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/StackTraceElement.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/String.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/System.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Thread.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/ThreadSnapshot.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/Throwable.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/TimeZone.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/VM.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/VMSupport.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/VirtualThread.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/check_classname.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/check_classname.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/check_version.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/io_util.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/io_util.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/java_props.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jdk_util.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jio.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/Console_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/FileDescriptor_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/JdkConsoleImpl_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/ProcessEnvironment_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/ProcessHandleImpl_unix.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/ProcessHandleImpl_unix.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/ProcessImpl_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/TimeZone_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/TimeZone_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/UnixFileSystem_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/VM_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/canonicalize_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/childproc.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/childproc.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/io_util_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/io_util_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/java_props_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jdk_util_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/locale_str.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/path_util.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/path_util.h :

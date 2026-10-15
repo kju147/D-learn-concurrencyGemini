@@ -1,0 +1,26 @@
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/compiler/directivesParser.cpp:25:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/compiler/compileBroker.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/ci/compilerInterface.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/ci/ciArray.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/ci/ciArrayKlass.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/ci/ciKlass.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/ci/ciType.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/ci/ciMetadata.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/ci/ciBaseObject.hpp:29:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/memory/allocation.hpp:29:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/nmt/memTag.hpp:28:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp:566:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/cpu/zero/globalDefinitions_zero.hpp:39:
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:302:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:386:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:412:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:441:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+4 warnings generated.

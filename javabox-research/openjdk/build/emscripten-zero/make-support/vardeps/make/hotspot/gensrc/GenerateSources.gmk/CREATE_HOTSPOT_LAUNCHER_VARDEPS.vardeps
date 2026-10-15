@@ -1,0 +1,1 @@
+CREATE_HOTSPOT_LAUNCHER_VARDEPS_old := /usr/bin/cat /usr/bin/sed -e 's|@@LIBARCH@@|zero|g' -e 's|@@JDK_IMPORT_PATH@@|/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/jdk|g' -e 's|DUMMY_REPLACEMENT|DUMMY_REPLACEMENT|g'

@@ -1,0 +1,35 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/libjvm/objs/semaphore_posix.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/semaphore_posix.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/os_posix.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/os.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/osInfo.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/memory/allStatic.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/debug.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/breakpoint.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/compilerWarnings.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/compilerWarnings_gcc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/align.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/metaprogramming/enableIf.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/checkedCast.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/forbiddenFunctions.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/forbiddenFunctions_posix.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions_gcc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/emscripten/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/cpu/x86/globalDefinitions_x86.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/powerOfTwo.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/count_leading_zeros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/count_trailing_zeros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/exceptions.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/memory/allocation.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/nmt/memTag.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/metaprogramming/primitiveConversions.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/ostream.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/runtime/timer.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/sizes.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/semaphore_posix.hpp

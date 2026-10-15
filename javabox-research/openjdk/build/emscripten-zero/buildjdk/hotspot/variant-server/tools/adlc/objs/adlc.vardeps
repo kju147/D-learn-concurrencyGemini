@@ -1,0 +1,1 @@
+BUILD_ADLC_VARDEPS_old := /usr/bin/clang++ -Wl,-rpath,\$$ORIGIN --strip-debug

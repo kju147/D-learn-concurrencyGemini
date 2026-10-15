@@ -1,0 +1,1 @@
+BUILD_LAUNCHER_serialver_VARDEPS_old := /root/opt/emsdk/upstream/emscripten/emcc -L/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base -Wl,-rpath,\$$ORIGIN -ljli --strip-debug

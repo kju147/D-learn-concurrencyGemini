@@ -1,0 +1,16 @@
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.httpserver/share/classes/sun/net/httpserver/simpleserver/resources/simpleserver.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.httpserver/sun/net/httpserver/simpleserver/resources/simpleserver.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.httpserver/share/classes/sun/net/httpserver/simpleserver/resources/simpleserver_de.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.httpserver/sun/net/httpserver/simpleserver/resources/simpleserver_de.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.httpserver/share/classes/sun/net/httpserver/simpleserver/resources/simpleserver_ja.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.httpserver/sun/net/httpserver/simpleserver/resources/simpleserver_ja.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.httpserver/share/classes/sun/net/httpserver/simpleserver/resources/simpleserver_zh_CN.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.httpserver/sun/net/httpserver/simpleserver/resources/simpleserver_zh_CN.java
+ListResourceBundle

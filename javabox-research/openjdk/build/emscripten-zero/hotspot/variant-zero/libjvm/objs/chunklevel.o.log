@@ -1,0 +1,17 @@
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/memory/metaspace/chunklevel.cpp:26:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/memory/metaspace/chunklevel.hpp:29:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp:566:
+In file included from /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/cpu/zero/globalDefinitions_zero.hpp:39:
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:302:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:386:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:412:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+/root/javabox/third-party/libffi-emscripten/install/include/ffi.h:441:6: warning: 'FFI_NATIVE_RAW_API' is not defined, evaluates to 0 [-Wundef]
+#if !FFI_NATIVE_RAW_API
+     ^
+4 warnings generated.

@@ -1,0 +1,1 @@
+BUILD_PLATFORMPROPERTIES_JAVA_VARDEPS_old := /usr/bin/cat /usr/bin/sed -e 's/@@OPENJDK_TARGET_OS@@/linux/g' -e 's/@@OPENJDK_TARGET_CPU@@/x64/g' -e 's/@@OPENJDK_TARGET_CPU_ENDIAN@@/little/g' -e 's/@@OPENJDK_TARGET_CPU_BITS@@/64/g'

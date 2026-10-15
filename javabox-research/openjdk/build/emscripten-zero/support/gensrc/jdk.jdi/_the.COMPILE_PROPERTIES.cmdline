@@ -1,0 +1,16 @@
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jdi/share/classes/com/sun/tools/jdi/resources/jdi.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jdi/com/sun/tools/jdi/resources/jdi.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jdi/share/classes/com/sun/tools/jdi/resources/jdi_de.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jdi/com/sun/tools/jdi/resources/jdi_de.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jdi/share/classes/com/sun/tools/jdi/resources/jdi_ja.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jdi/com/sun/tools/jdi/resources/jdi_ja.java
+ListResourceBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/jdk.jdi/share/classes/com/sun/tools/jdi/resources/jdi_zh_CN.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/jdk.jdi/com/sun/tools/jdi/resources/jdi_zh_CN.java
+ListResourceBundle

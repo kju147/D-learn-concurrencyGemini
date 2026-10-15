@@ -1,0 +1,1 @@
+BUILD_JEXEC_VARDEPS_old := /usr/bin/clang --strip-debug

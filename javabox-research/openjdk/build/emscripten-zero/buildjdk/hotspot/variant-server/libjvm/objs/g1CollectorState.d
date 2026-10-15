@@ -1,0 +1,21 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/hotspot/variant-server/libjvm/objs/g1CollectorState.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/gc/g1/g1CollectorState.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/gc/g1/g1CollectorState.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/gc/g1/g1GCPauseType.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/debug.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/breakpoint.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/compilerWarnings.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/compilerWarnings_gcc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/enumIterator.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/memory/allStatic.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/metaprogramming/enableIf.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/metaprogramming/primitiveConversions.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/forbiddenFunctions.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/forbiddenFunctions_posix.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions_gcc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_include/java.base/emscripten/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/cpu/x86/globalDefinitions_x86.hpp

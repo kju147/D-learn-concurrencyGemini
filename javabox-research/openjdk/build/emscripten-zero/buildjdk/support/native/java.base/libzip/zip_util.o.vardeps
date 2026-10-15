@@ -1,0 +1,1 @@
+BUILD_LIBZIP_zip_util.c_VARDEPS_old := -Wno-unused-function

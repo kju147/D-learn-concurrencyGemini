@@ -1,0 +1,231 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/DefaultProxySelector.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/DefaultProxySelector.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/proxy_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/sun_net_spi_DefaultProxySelector.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/Inet4Address.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/Inet4Address.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_Inet4Address.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/Inet4AddressImpl.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/Inet4AddressImpl.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_Inet4AddressImpl.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_spi_InetAddressResolver_LookupPolicy.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/Inet6Address.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/Inet6Address.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_Inet6Address.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/Inet6AddressImpl.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/Inet6AddressImpl.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_InetAddress.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_Inet4AddressImpl.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_Inet6AddressImpl.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_spi_InetAddressResolver_LookupPolicy.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/InetAddress.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/InetAddress.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_InetAddress.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/NetworkInterface.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_InetAddress.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_NetworkInterface.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/ResolverConfigurationImpl.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/ResolverConfigurationImpl.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/SdpSupport.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/SdpSupport.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/net_util.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_InetAddress.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_spi_InetAddressResolver_LookupPolicy.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/net_util_md.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_SocketOptions.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_InetAddress.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/portconfig.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/portconfig.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/sun_net_PortConfig.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/native/java.base/libnet/proxy_util.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/proxy_util.c \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/proxy_util.h
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_Inet4Address.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_Inet4AddressImpl.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_Inet6Address.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_Inet6AddressImpl.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_InetAddress.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_NetworkInterface.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_SocketOptions.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/java_net_spi_InetAddressResolver_LookupPolicy.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/sun_net_PortConfig.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/headers/java.base/sun_net_spi_DefaultProxySelector.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_constants.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jlong.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libjava/jni_util.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/Inet4Address.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/Inet6Address.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/InetAddress.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/net_util.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/proxy_util.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/native/libnet/proxy_util.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/include/jni_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jlong_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libjava/jni_util_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/DefaultProxySelector.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/Inet4AddressImpl.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/Inet6AddressImpl.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/ResolverConfigurationImpl.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/SdpSupport.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.c :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/net_util_md.h :
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/portconfig.c :

@@ -1,0 +1,129 @@
+#
+# Copyright (c) 2015, 2024, Oracle and/or its affiliates. All rights reserved.
+# DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
+#
+# This code is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License version 2 only, as
+# published by the Free Software Foundation.  Oracle designates this
+# particular file as subject to the "Classpath" exception as provided
+# by Oracle in the LICENSE file that accompanied this code.
+#
+# This code is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+# FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+# version 2 for more details (a copy is included in the LICENSE file that
+# accompanied this code).
+#
+# You should have received a copy of the GNU General Public License version
+# 2 along with this work; if not, write to the Free Software Foundation,
+# Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.
+#
+# Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA
+# or visit www.oracle.com if you need additional information or have any
+# questions.
+#
+
+# This spec file is used to compile a BUILD_JDK while cross compiling. The
+# BUILD_JDK runs on the build/host platform and is of the same version as
+# the main build.
+
+# First include the real base spec.gmk file
+include /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/spec.gmk
+
+CC := /usr/bin/clang
+CXX := /usr/bin/clang++
+# Ideally this should be probed by configure but that is tricky to implement,
+# and this should work in most cases.
+CPP := /usr/bin/clang -E
+LD := /usr/bin/clang
+LDCXX := /usr/bin/clang++
+AS := /usr/bin/clang -c
+NM := /usr/bin/nm
+AR := /usr/bin/ar
+LIB := @BUILD_LIB@
+OBJCOPY := /usr/bin/objcopy
+STRIP := /usr/bin/strip
+SYSROOT_CFLAGS := 
+SYSROOT_LDFLAGS := 
+
+# These directories should not be moved to BUILDJDK_OUTPUTDIR
+HOTSPOT_OUTPUTDIR := $(patsubst $(OUTPUTDIR)%,$(BUILDJDK_OUTPUTDIR)%,$(HOTSPOT_OUTPUTDIR))
+BUILDTOOLS_OUTPUTDIR := $(patsubst $(OUTPUTDIR)%,$(BUILDJDK_OUTPUTDIR)%,$(BUILDTOOLS_OUTPUTDIR))
+SUPPORT_OUTPUTDIR := $(patsubst $(OUTPUTDIR)%,$(BUILDJDK_OUTPUTDIR)%,$(SUPPORT_OUTPUTDIR))
+JDK_OUTPUTDIR := $(patsubst $(OUTPUTDIR)%,$(BUILDJDK_OUTPUTDIR)%,$(JDK_OUTPUTDIR))
+IMAGES_OUTPUTDIR := $(patsubst $(OUTPUTDIR)%,$(BUILDJDK_OUTPUTDIR)%,$(IMAGES_OUTPUTDIR))
+
+OPENJDK_BUILD_CPU_LEGACY := amd64
+OPENJDK_BUILD_CPU_LEGACY_LIB := amd64
+OPENJDK_BUILD_LIBC := gnu
+OPENJDK_TARGET_CPU := x86_64
+OPENJDK_TARGET_CPU_ARCH := x86
+OPENJDK_TARGET_CPU_BITS := 64
+OPENJDK_TARGET_CPU_ENDIAN := little
+OPENJDK_TARGET_CPU_LEGACY := amd64
+OPENJDK_TARGET_LIBC := gnu
+OPENJDK_TARGET_OS_INCLUDE_SUBDIR := emscripten
+
+# Probe Z: the buildjdk runs on the build host, so within the buildjdk
+# sub-build the "target" platform must be the build platform (upstream only
+# gets away without this override for same-OS-family cross builds). Without
+# it, e.g. LauncherCommon's LDFLAGS_linux rpath is skipped when the real
+# target is emscripten, and interim jmod cannot find libjli.so.
+OPENJDK_TARGET_OS := linux
+OPENJDK_TARGET_OS_TYPE := unix
+OPENJDK_TARGET_OS_ENV := linux
+
+HOTSPOT_TARGET_OS := linux
+HOTSPOT_TARGET_OS_TYPE := posix
+HOTSPOT_TARGET_CPU := x86_64
+HOTSPOT_TARGET_CPU_ARCH := x86
+HOTSPOT_TARGET_CPU_DEFINE := AMD64
+HOTSPOT_TARGET_LIBC := gnu
+
+CFLAGS_JDKLIB :=   -fvisibility=hidden -fstack-protector -finput-charset=utf-8        -DLIBC=default -D_GNU_SOURCE -D_REENTRANT -D_FILE_OFFSET_BITS=64 -DLINUX -DNDEBUG        -Wall -Wextra -Wformat=2 -Wpointer-arith -Wsign-compare -Wreorder           -Wunused-function -Wundef -Wunused-value -Woverloaded-virtual         -fmacro-prefix-map=/mnt/d/learn/concurrencykimi/javabox-research/openjdk/=   -std=c11           -D_LITTLE_ENDIAN -DARCH='"amd64"'       -Damd64 -D_LP64=1   -fno-omit-frame-pointer        -fPIC 
+CXXFLAGS_JDKLIB :=   -fvisibility=hidden -fstack-protector -finput-charset=utf-8        -DLIBC=default -D_GNU_SOURCE -D_REENTRANT -D_FILE_OFFSET_BITS=64 -DLINUX -DNDEBUG        -Wall -Wextra -Wformat=2 -Wpointer-arith -Wsign-compare -Wreorder           -Wunused-function -Wundef -Wunused-value -Woverloaded-virtual         -fmacro-prefix-map=/mnt/d/learn/concurrencykimi/javabox-research/openjdk/=           -std=c++14                -D_LITTLE_ENDIAN -DARCH='"amd64"'       -Damd64 -D_LP64=1   -fno-omit-frame-pointer        -fPIC 
+LDFLAGS_JDKLIB :=                  -shared  
+CFLAGS_JDKEXE :=   -fvisibility=hidden -fstack-protector -finput-charset=utf-8        -DLIBC=default -D_GNU_SOURCE -D_REENTRANT -D_FILE_OFFSET_BITS=64 -DLINUX -DNDEBUG        -Wall -Wextra -Wformat=2 -Wpointer-arith -Wsign-compare -Wreorder           -Wunused-function -Wundef -Wunused-value -Woverloaded-virtual         -fmacro-prefix-map=/mnt/d/learn/concurrencykimi/javabox-research/openjdk/=   -std=c11           -D_LITTLE_ENDIAN -DARCH='"amd64"'       -Damd64 -D_LP64=1   -fno-omit-frame-pointer  -fPIE
+CXXFLAGS_JDKEXE :=   -fvisibility=hidden -fstack-protector -finput-charset=utf-8        -DLIBC=default -D_GNU_SOURCE -D_REENTRANT -D_FILE_OFFSET_BITS=64 -DLINUX -DNDEBUG        -Wall -Wextra -Wformat=2 -Wpointer-arith -Wsign-compare -Wreorder           -Wunused-function -Wundef -Wunused-value -Woverloaded-virtual         -fmacro-prefix-map=/mnt/d/learn/concurrencykimi/javabox-research/openjdk/=           -std=c++14                -D_LITTLE_ENDIAN -DARCH='"amd64"'       -Damd64 -D_LP64=1   -fno-omit-frame-pointer  -fPIE
+LDFLAGS_JDKEXE :=                     
+
+JVM_CFLAGS := -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D_GNU_SOURCE       -pipe -fno-rtti -fno-exceptions         -fvisibility=hidden -fno-strict-aliasing -fno-omit-frame-pointer -flimit-debug-info -fstack-protector -mno-omit-leaf-frame-pointer -mstack-alignment=16 -finput-charset=utf-8 -std=c++14         -DLIBC=default  -DLINUX -D_FILE_OFFSET_BITS=64        -Wall -Wextra -Wformat=2 -Wpointer-arith -Wsign-compare -Wreorder           -Wunused-function -Wundef -Wunused-value -Woverloaded-virtual  -fPIC -fmacro-prefix-map=/mnt/d/learn/concurrencykimi/javabox-research/openjdk/=         -DVM_LITTLE_ENDIAN -D_LP64=1     
+JVM_LDFLAGS :=  -mno-omit-leaf-frame-pointer -mstack-alignment=16         -fPIC                           
+JVM_ASFLAGS :=  
+JVM_LIBS := -lm  -latomic
+
+FDLIBM_CFLAGS := -ffp-contract=off
+
+# Probe Z: target may cross-link a foreign-arch libffi (e.g. wasm); those
+# flags must never reach the buildjdk (host-arch) libfallbackLinker link.
+# Host WSL has libffi.so.8 runtime but no dev package; headers are taken from
+# the emscripten libffi install (decl-only use) and the .so is linked with
+# -l: so no dev symlink is needed. The fallback linker is never exercised by
+# buildjdk tools, so the wasm-target ffi_abi constants in those headers are
+# acceptable for the probe.
+LIBFFI_CFLAGS := -I/root/javabox/third-party/libffi-emscripten/install/include
+LIBFFI_LIBS := -L/usr/lib/x86_64-linux-gnu -l:libffi.so.8
+
+INTERIM_LANGTOOLS_ARGS := $(subst $(OUTPUTDIR),$(BUILDJDK_OUTPUTDIR),$(INTERIM_LANGTOOLS_ARGS))
+
+# The compiler for the build platform is likely not warning compatible with the official
+# compiler.
+WARNINGS_AS_ERRORS := false
+DISABLE_WARNING_PREFIX := -Wno-
+
+# Save speed and disk space by not enabling debug symbols for the buildjdk
+ENABLE_DEBUG_SYMBOLS := false
+
+JVM_VARIANTS := server
+JVM_VARIANT_MAIN := server
+JVM_FEATURES_server := cds compiler1 compiler2 g1gc serialgc
+
+# Some users still set EXTRA_*FLAGS on the make command line. Must
+# make sure to override that when building buildjdk.
+override EXTRA_CFLAGS :=
+override EXTRA_CXXFLAGS :=
+override EXTRA_LDFLAGS :=
+
+# hsdis is not needed
+HSDIS_BACKEND := none
+ENABLE_HSDIS_BUNDLING := false

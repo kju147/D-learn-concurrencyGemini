@@ -1,0 +1,6 @@
+#!/bin/bash
+export PATH="$PATH:/root/opt/emsdk:/root/opt/emsdk/upstream/emscripten:/root/opt/emsdk/node/24.19.0_64bit/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+# PROBE Z: all build tools are Linux-native under WSL2, so fixpath must be a
+# pass-through. Generated file; configure will regenerate it if re-run.
+if [ "$1" = exec ]; then shift; fi
+exec "$@"

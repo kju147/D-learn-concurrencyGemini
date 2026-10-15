@@ -1,0 +1,1 @@
+BUILD_LIBJVM_g1YoungGCPostEvacuateTasks.cpp_VARDEPS_old := -Wno-delete-abstract-non-virtual-dtor

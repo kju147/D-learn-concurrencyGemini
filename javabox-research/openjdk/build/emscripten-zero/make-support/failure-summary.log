@@ -1,0 +1,42 @@
+
+=== Output from failing command(s) repeated here ===
+* For target support_native_jdk.compiler_javac_BUILD_LAUNCHER_javac_run_ld:
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+   ... (rest of output omitted)
+* For target support_native_jdk.httpserver_jwebserver_BUILD_LAUNCHER_jwebserver_run_ld:
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_fail
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+wasm-ld: error: /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_libs/java.base/libjli.so: undefined symbol: __stack_chk_guard
+   ... (rest of output omitted)
+
+* All command lines available in /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/make-support/failure-logs.
+=== End of repeated output ===
+
+No indication of failed target found.
+HELP: Try searching the build log for '] Error'.

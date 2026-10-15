@@ -1,0 +1,15 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/oops/resolvedMethodEntry.cpp:43:12: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'ResolvedMethodEntry' [-Wnontrivial-memcall]
+   43 |     memset(this, 0, sizeof(*this));
+      |            ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/oops/resolvedMethodEntry.cpp:43:12: note: explicitly cast the pointer to silence this warning
+   43 |     memset(this, 0, sizeof(*this));
+      |            ^
+      |            (void*)
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/oops/resolvedMethodEntry.cpp:48:12: warning: first argument in call to 'memset' is a pointer to non-trivially copyable type 'ResolvedMethodEntry' [-Wnontrivial-memcall]
+   48 |     memset(this, 0, sizeof(*this));
+      |            ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/oops/resolvedMethodEntry.cpp:48:12: note: explicitly cast the pointer to silence this warning
+   48 |     memset(this, 0, sizeof(*this));
+      |            ^
+      |            (void*)
+2 warnings generated.

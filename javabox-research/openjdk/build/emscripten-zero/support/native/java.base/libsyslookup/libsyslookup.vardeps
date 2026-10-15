@@ -1,0 +1,1 @@
+BUILD_LIBSYSLOOKUP_VARDEPS_old := /root/opt/emsdk/upstream/emscripten/emcc -shared -Wl,-soname=libsyslookup.so --strip-debug

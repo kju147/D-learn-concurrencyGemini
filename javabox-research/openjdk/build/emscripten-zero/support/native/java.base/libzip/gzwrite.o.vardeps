@@ -1,0 +1,1 @@
+BUILD_LIBZIP_gzwrite.c_VARDEPS_old := -Wno-format-nonliteral

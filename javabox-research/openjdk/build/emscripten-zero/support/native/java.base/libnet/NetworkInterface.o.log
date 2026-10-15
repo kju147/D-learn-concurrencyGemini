@@ -1,0 +1,43 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:117:16: warning: function 'enumIPv4Interfaces' has internal linkage but is not defined [-Wundefined-internal]
+static netif  *enumIPv4Interfaces(JNIEnv *env, int sock, netif *ifs);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:383:19: note: used here
+            ifs = enumIPv4Interfaces(env, sock, ifs);
+                  ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:118:16: warning: function 'enumIPv6Interfaces' has internal linkage but is not defined [-Wundefined-internal]
+static netif  *enumIPv6Interfaces(JNIEnv *env, int sock, netif *ifs);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:401:15: note: used here
+        ifs = enumIPv6Interfaces(env, sock, ifs);
+              ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:134:16: warning: function 'getMacAddress' has internal linkage but is not defined [-Wundefined-internal]
+static int     getMacAddress(JNIEnv *env, const char *ifname,
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:599:15: note: used here
+        len = getMacAddress(env, name_utf, &iaddr, mac);
+              ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:127:16: warning: function 'openSocketWithFallback' has internal linkage but is not defined [-Wundefined-internal]
+static int     openSocketWithFallback(JNIEnv *env, const char *ifname);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:642:17: note: used here
+    if ((sock = openSocketWithFallback(env, name_utf)) < 0) {
+                ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:136:16: warning: function 'getMTU' has internal linkage but is not defined [-Wundefined-internal]
+static int     getMTU(JNIEnv *env, int sock, const char *ifname);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:647:11: note: used here
+    ret = getMTU(env, sock, name_utf);
+          ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:133:16: warning: function 'getFlags' has internal linkage but is not defined [-Wundefined-internal]
+static int     getFlags(int sock, const char *ifname, int *flags);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:679:11: note: used here
+    ret = getFlags(sock, name_utf, &flags);
+          ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:132:16: warning: function 'getIndex' has internal linkage but is not defined [-Wundefined-internal]
+static int     getIndex(int sock, const char *ifname);
+               ^
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnet/NetworkInterface.c:1002:26: note: used here
+         currif->index = getIndex(sock, name);
+                         ^
+7 warnings generated.

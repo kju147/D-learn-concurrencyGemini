@@ -1,0 +1,1 @@
+/usr/bin/clang -o /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/modules_libs/java.base/jexec /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/buildjdk/support/native/java.base/jexec/jexec.o

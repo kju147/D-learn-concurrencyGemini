@@ -1,0 +1,7 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/unix/native/libnio/MappedMemoryUtils.c:62:38: warning: passing 'mincore_vec_t *' (aka 'char *') to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+    result = mincore(a, (size_t)len, vec);
+                                     ^~~
+/root/opt/emsdk/upstream/emscripten/cache/sysroot/include/sys/mman.h:138:45: note: passing argument to parameter here
+int mincore (void *, size_t, unsigned char *);
+                                            ^
+1 warning generated.

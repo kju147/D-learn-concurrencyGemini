@@ -1,0 +1,4 @@
+emcc: warning: linking a library with `-shared` will emit a static object file.  This is a form of emulation to support existing build systems.  If you want to build a runtime shared library use the SIDE_MODULE setting. [-Wemcc]
+emcc: warning: ignoring unsupported linker flag: `-rpath` [-Wlinkflags]
+emcc: warning: ignoring unsupported linker flag: `-soname=libjsig.so` [-Wlinkflags]
+wasm-ld: warning: unknown -z value: origin

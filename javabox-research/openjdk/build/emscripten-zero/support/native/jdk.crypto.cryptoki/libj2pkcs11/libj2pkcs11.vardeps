@@ -1,0 +1,1 @@
+BUILD_LIBJ2PKCS11_VARDEPS_old := /root/opt/emsdk/upstream/emscripten/emcc -shared -Wl,-z,origin -Wl,-rpath,\$$ORIGIN -Wl,-soname=libj2pkcs11.so -ldl --strip-debug

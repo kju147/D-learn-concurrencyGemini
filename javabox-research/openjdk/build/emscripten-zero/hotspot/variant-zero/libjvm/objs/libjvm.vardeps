@@ -1,0 +1,1 @@
+BUILD_LIBJVM_VARDEPS_old := /root/opt/emsdk/upstream/emscripten/em++ -mno-omit-leaf-frame-pointer -mstack-alignment=16 -fPIC -shared -Wl,-soname=libjvm.so -lm -L/root/javabox/third-party/libffi-emscripten/install/lib -lffi --strip-debug

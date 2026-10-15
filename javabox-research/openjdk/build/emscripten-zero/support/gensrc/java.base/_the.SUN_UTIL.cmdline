@@ -1,0 +1,12 @@
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/classes/sun/util/resources/CalendarData.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/java.base/sun/util/resources/CalendarData.java
+sun.util.resources.LocaleNamesBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/classes/sun/util/resources/CurrencyNames.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/java.base/sun/util/resources/CurrencyNames.java
+sun.util.resources.LocaleNamesBundle
+-compile
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/java.base/share/classes/sun/util/resources/LocaleNames.properties
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/gensrc/java.base/sun/util/resources/LocaleNames.java
+sun.util.resources.LocaleNamesBundle

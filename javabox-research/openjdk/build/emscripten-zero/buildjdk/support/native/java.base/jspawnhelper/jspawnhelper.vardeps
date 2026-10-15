@@ -1,0 +1,1 @@
+BUILD_JSPAWNHELPER_VARDEPS_old := /usr/bin/clang --strip-debug

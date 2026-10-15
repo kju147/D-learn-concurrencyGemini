@@ -1,0 +1,1 @@
+BUILD_LIBJVM_VARDEPS_old := /usr/bin/clang++ -mno-omit-leaf-frame-pointer -mstack-alignment=16 -fPIC -shared -Wl,-version-script=/mnt/d/learn/concurrencykimi/javabox-research/openjdk/make/data/hotspot-symbols/version-script-clang.txt -Wl,-soname=libjvm.so -lm -latomic --strip-debug

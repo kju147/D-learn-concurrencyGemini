@@ -1,0 +1,28 @@
+/mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/hotspot/variant-zero/libjvm/objs/barrierSetNMethod_zero.o: \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/cpu/zero/gc/shared/barrierSetNMethod_zero.cpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/gc/shared/barrierSetNMethod.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/memory/allocation.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/memory/allStatic.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/nmt/memTag.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/compilerWarnings.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/macros.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/compilerWarnings_gcc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/debug.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/breakpoint.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/forbiddenFunctions.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/forbiddenFunctions_posix.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/classfile_constants.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/globalDefinitions_gcc.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/jni.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/build/emscripten-zero/support/modules_include/java.base/emscripten/jni_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/cpu/zero/globalDefinitions_zero.hpp \
+  /root/javabox/third-party/libffi-emscripten/install/include/ffi.h \
+  /root/javabox/third-party/libffi-emscripten/install/include/ffitarget.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/oops/oopsHierarchy.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/metaprogramming/primitiveConversions.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/metaprogramming/enableIf.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/formatBuffer.hpp \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/include/jvm_io.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/os/posix/include/jvm_md.h \
+  /mnt/d/learn/concurrencykimi/javabox-research/openjdk/src/hotspot/share/utilities/sizes.hpp
