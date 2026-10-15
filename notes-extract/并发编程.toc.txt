@@ -1,0 +1,249 @@
+并发编程 -> p1
+  1. 概览 -> p1
+    1.1 这门课讲什么 -> p1
+    1.2 为什么学这么课 -> p1
+    1.3 课程特色 -> p2
+    1.4 预备知识 -> p4
+  2. 进程与线程 -> p5
+    本章内容 -> p5
+    2.1 进程与线程 -> p6
+      进程 -> p6
+      线程 -> p6
+      二者对比 -> p7
+    2.2 并行与并发 -> p7
+    2.3 应用 -> p10
+      * 应用之异步调用（案例1） -> p10
+        1) 设计 -> p10
+        2) 结论 -> p10
+      * 应用之提高效率（案例1） -> p11
+        1) 设计 -> p11
+        2) 结论 -> p11
+  3. Java 线程 -> p11
+    本章内容 -> p11
+    3.1 创建和运行线程 -> p11
+      方法一，直接使用 Thread -> p11
+      方法二，使用 Runnable 配合 Thread -> p12
+      * 原理之 Thread 与 Runnable 的关系 -> p13
+      方法三，FutureTask 配合 Thread -> p14
+    3.2 观察多个线程同时运行 -> p14
+    3.3 查看进程线程的方法 -> p15
+      windows -> p15
+      linux -> p15
+      Java -> p15
+    3.4 * 原理之线程运行 -> p15
+      栈与栈帧 -> p16
+      线程上下文切换（Thread Context Switch） -> p16
+    3.5 常见方法 -> p16
+    3.6 start 与 run -> p18
+      调用 run -> p18
+      调用 start -> p18
+      小结 -> p19
+    3.7 sleep 与 yield -> p19
+      sleep -> p19
+      yield -> p19
+      线程优先级 -> p19
+       * 应用之效率（案例2）   -> p20
+    3.8 join 方法详解 -> p20
+      为什么需要 join -> p20
+      * 应用之同步（案例1） -> p20
+      等待多个结果 -> p21
+      有时效的 join -> p23
+    3.9 interrupt 方法详解 -> p24
+      打断 sleep，wait，join 的线程 -> p24
+      打断正常运行的线程 -> p25
+      * 模式之两阶段终止 -> p26
+      打断 park 线程 -> p26
+    3.10 不推荐的方法 -> p27
+    3.11 主线程与守护线程 -> p28
+    3.12 五种状态 -> p28
+    3.13 六种状态 -> p29
+    3.14 习题 -> p30
+      * 应用之统筹（烧水泡茶） -> p32
+    本章小结 -> p32
+  4. 共享模型之管程 -> p33
+    本章内容 -> p33
+    4.1 共享带来的问题 -> p33
+      小故事 -> p33
+      Java 的体现 -> p35
+      问题分析 -> p35
+      临界区 Critical Section -> p39
+      竞态条件 Race Condition -> p40
+    4.2 synchronized 解决方案 -> p40
+      * 应用之互斥 -> p40
+      synchronized -> p41
+      思考 -> p43
+      面向对象改进 -> p44
+    4.3 方法上的 synchronized -> p45
+      不加 synchronized 的方法 -> p46
+      所谓的“线程八锁” -> p46
+    4.4 变量的线程安全分析 -> p49
+      成员变量和静态变量是否线程安全？ -> p49
+      局部变量是否线程安全？ -> p49
+      局部变量线程安全分析 -> p49
+      常见线程安全类 -> p54
+        线程安全类方法的组合 -> p55
+        不可变类线程安全性 -> p55
+      实例分析 -> p56
+    4.5 习题 -> p61
+      卖票练习 -> p61
+      转账练习 -> p62
+    4.6 Monitor 概念 -> p63
+      Java 对象头 -> p63
+      * 原理之 Monitor(锁) -> p65
+      * 原理之 synchronized -> p65
+      小故事 -> p65
+      * 原理之 synchronized 进阶 -> p65
+    4.7 wait notify -> p65
+      小故事 - 为什么需要 wait -> p66
+      * 原理之 wait / notify -> p66
+      API 介绍 -> p66
+    4.8 wait notify 的正确姿势 -> p68
+      sleep(long n) 和 wait(long n) 的区别 -> p68
+      step 1 -> p68
+      step 2 -> p69
+      step 3 -> p70
+      step 4 -> p71
+      step 5 -> p72
+      * 模式之保护性暂停 -> p73
+      * 模式之生产者消费者 -> p73
+    4.9 Park & Unpark -> p73
+      基本使用 -> p73
+      特点 -> p74
+      * 原理之 park & unpark -> p75
+    4.10 重新理解线程状态转换 -> p75
+      情况 1 NEW --> RUNNABLE -> p76
+      情况 2 RUNNABLE <--> WAITING -> p76
+      情况 3 RUNNABLE <--> WAITING -> p77
+      情况 4 RUNNABLE <--> WAITING -> p77
+      情况 5 RUNNABLE <--> TIMED_WAITING  -> p77
+      情况 6 RUNNABLE <--> TIMED_WAITING  -> p78
+      情况 7 RUNNABLE <--> TIMED_WAITING  -> p78
+      情况 8 RUNNABLE <--> TIMED_WAITING  -> p78
+      情况 9 RUNNABLE <--> BLOCKED -> p78
+      情况 10 RUNNABLE <--> TERMINATED -> p78
+    4.11 多把锁 -> p78
+      多把不相干的锁 -> p79
+    4.12 活跃性 -> p80
+      死锁 -> p80
+      定位死锁 -> p81
+      哲学家就餐问题 -> p82
+      活锁 -> p85
+      饥饿 -> p86
+    4.13 ReentrantLock -> p87
+      可重入 -> p87
+      可打断 -> p88
+      锁超时 -> p90
+      公平锁 -> p93
+      条件变量 -> p94
+      * 同步模式之顺序控制 -> p96
+    本章小结 -> p96
+  5. 共享模型之内存 -> p96
+    本章内容 -> p96
+    5.1 Java 内存模型 -> p97
+    5.2 可见性 -> p97
+      退不出的循环 -> p97
+      解决方法 -> p99
+      可见性 vs 原子性 -> p99
+      * 模式之两阶段终止  -> p100
+      * 模式之 Balking  -> p100
+    5.3 有序性 -> p100
+      * 原理之指令级并行  -> p100
+      诡异的结果 -> p100
+      解决方法 -> p102
+      * 原理之 volatile -> p103
+      happens-before -> p103
+      习题 -> p106
+        balking 模式习题 -> p106
+        线程安全单例习题 -> p106
+    本章小结 -> p108
+  6. 共享模型之无锁 -> p108
+    本章内容 -> p108
+    6.1 问题提出 -> p109
+      为什么不安全 -> p110
+      解决思路-锁 -> p111
+      解决思路-无锁 -> p111
+    6.2 CAS 与 volatile -> p112
+      慢动作分析 -> p114
+      volatile -> p115
+      为什么无锁效率高 -> p115
+      CAS 的特点 -> p116
+    6.3 原子整数 -> p117
+    6.4 原子引用 -> p118
+      不安全实现 -> p118
+      安全实现-使用锁 -> p119
+      安全实现-使用 CAS -> p119
+      ABA 问题及解决 -> p120
+        ABA 问题 -> p120
+        AtomicStampedReference -> p121
+        AtomicMarkableReference -> p122
+    6.5 原子数组 -> p124
+      不安全的数组 -> p124
+      安全的数组 -> p125
+    6.6 字段更新器 -> p125
+    6.7 原子累加器 -> p126
+      累加器性能比较 -> p126
+      * 源码之 LongAdder  -> p127
+      cas 锁 -> p128
+      * 原理之伪共享 -> p129
+    6.8 Unsafe -> p134
+      概述 -> p135
+      Unsafe CAS 操作 -> p135
+    本章小结 -> p137
+  7. 共享模型之不可变 -> p137
+    本章内容 -> p137
+    7.1 日期转换的问题 -> p137
+      问题提出 -> p137
+      思路 - 同步锁 -> p138
+      思路 - 不可变 -> p139
+    7.2 不可变设计 -> p139
+      final 的使用 -> p140
+      保护性拷贝 -> p140
+      * 模式之享元 -> p141
+      * 原理之 final -> p141
+    7.3 无状态 -> p141
+    本章小结 -> p141
+  8. 共享模型之工具 -> p141
+    8.1 线程池 -> p141
+      1. 自定义线程池 -> p141
+      2. ThreadPoolExecutor -> p146
+        1) 线程池状态 -> p147
+        2) 构造方法 -> p147
+        3) newFixedThreadPool -> p150
+        4) newCachedThreadPool -> p150
+        5) newSingleThreadExecutor -> p152
+        6) 提交任务 -> p152
+        7) 关闭线程池 -> p153
+        * 模式之 Worker Thread  -> p154
+        8) 任务调度线程池 -> p154
+        9) 正确处理执行任务异常 -> p156
+        * 应用之定时任务 -> p158
+        10) Tomcat 线程池 -> p158
+      3. Fork/Join -> p160
+        1) 概念 -> p160
+        2) 使用 -> p160
+    8.2 J.U.C -> p164
+      1. * AQS 原理 -> p164
+      2. * ReentrantLock 原理 -> p164
+      3. 读写锁 -> p164
+        3.1 ReentrantReadWriteLock -> p164
+        * 应用之缓存 -> p167
+        * 读写锁原理 -> p167
+        3.2 StampedLock -> p167
+      4. Semaphore -> p169
+        基本使用 -> p169
+        * Semaphore 应用 -> p171
+        * Semaphore 原理 -> p171
+      5. CountdownLatch -> p171
+        * 应用之同步等待多线程准备完毕 -> p172
+        * 应用之同步等待多个远程调用结束 -> p173
+      6. CyclicBarrier -> p175
+      7. 线程安全集合类概述 -> p176
+      8. ConcurrentHashMap -> p177
+        练习：单词计数 -> p177
+        * ConcurrentHashMap 原理 -> p179
+      9. BlockingQueue -> p179
+        * BlockingQueue 原理 -> p179
+      10. ConcurrentLinkedQueue -> p179
+      11. CopyOnWriteArrayList -> p180
+        get 弱一致性 -> p180
+        迭代器弱一致性 -> p181

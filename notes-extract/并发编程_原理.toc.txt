@@ -1,0 +1,111 @@
+原理篇 -> p1
+  指令级并行原理 -> p1
+    1. 名词 -> p1
+      Clock Cycle Time -> p1
+      CPI -> p1
+      IPC -> p1
+      CPU 执行时间 -> p1
+    2. 鱼罐头的故事 -> p1
+    3. 指令重排序优化 -> p2
+    4. 支持流水线的处理器 -> p3
+    5. SuperScalar 处理器 -> p3
+  CPU 缓存结构原理 -> p4
+    1. CPU 缓存结构 -> p4
+    2. CPU 缓存读 -> p6
+    3. CPU 缓存一致性 -> p7
+    4. 内存屏障 -> p7
+  volatile 原理 -> p8
+    1. 如何保证可见性 -> p8
+    2. 如何保证有序性 -> p9
+    3. double-checked locking 问题 -> p11
+    4. double-checked locking 解决 -> p13
+  final 原理 -> p15
+    1. 设置 final 变量的原理 -> p15
+    2. 获取 final 变量的原理 -> p15
+  Monitor 原理 -> p15
+  synchronized 原理 -> p16
+  synchronized 原理进阶 -> p17
+    1. 轻量级锁 -> p17
+    2. 锁膨胀 -> p20
+    3. 自旋优化 -> p21
+    4. 偏向锁 -> p22
+      偏向状态 -> p23
+      撤销 - 调用对象 hashCode -> p25
+      撤销 - 其它线程使用对象 -> p26
+      撤销 - 调用 wait/notify -> p27
+      批量重偏向 -> p28
+      批量撤销 -> p31
+    5. 锁消除 -> p32
+  wait notify 原理 -> p33
+  join 原理 -> p33
+  park unpark 原理 -> p34
+  AQS 原理 -> p36
+    1. 概述 -> p36
+    2. 实现不可重入锁 -> p37
+      自定义同步器 -> p37
+      自定义锁 -> p38
+    3. 心得 -> p39
+      起源 -> p39
+      目标 -> p39
+      设计 -> p40
+        1) state 设计 -> p40
+        2) 阻塞恢复设计 -> p40
+        3) 队列设计 -> p40
+        主要用到 AQS 的并发工具类 -> p42
+  ReentrantLock 原理 -> p42
+    1. 非公平锁实现原理 -> p43
+      加锁解锁流程 -> p43
+      加锁源码 -> p46
+      解锁源码 -> p49
+    2. 可重入原理 -> p51
+    3. 可打断原理 -> p52
+      不可打断模式 -> p52
+      可打断模式 -> p53
+    4. 公平锁实现原理 -> p54
+    5. 条件变量实现原理 -> p55
+      await 流程 -> p55
+      signal 流程 -> p56
+      源码 -> p57
+  读写锁原理 -> p62
+    1. 图解流程 -> p62
+      t1 w.lock，t2 r.lock -> p62
+      t3 r.lock，t4 w.lock -> p64
+      t1 w.unlock -> p64
+      t2 r.unlock，t3 r.unlock -> p66
+    2. 源码分析 -> p68
+      写锁上锁流程 -> p68
+      写锁释放流程 -> p69
+      读锁上锁流程 -> p70
+      读锁释放流程 -> p73
+  Semaphore 原理 -> p74
+    1. 加锁解锁流程 -> p74
+    2. 源码分析 -> p76
+    3. 为什么要有 PROPAGATE -> p78
+      正常流程 -> p79
+      产生 bug 的情况 -> p79
+      bug 修复后 -> p80
+  ConcurrentHashMap 原理 -> p81
+    1. JDK 7 HashMap 并发死链 -> p81
+      测试代码 -> p81
+      死链复现 -> p83
+      源码分析 -> p84
+      小结 -> p85
+    2. JDK 8 ConcurrentHashMap -> p86
+      重要属性和内部类 -> p86
+      重要方法 -> p86
+      构造器分析 -> p87
+      get 流程 -> p87
+      put 流程 -> p87
+      size 计算流程 -> p91
+    3. JDK 7 ConcurrentHashMap -> p92
+      构造器分析 -> p92
+      put 流程 -> p94
+      rehash 流程 -> p95
+      get 流程 -> p97
+      size 计算流程 -> p97
+  LinkedBlockingQueue 原理 -> p98
+    1. 基本的入队出队 -> p98
+    2. 加锁分析 -> p101
+    3. 性能比较 -> p103
+  ConcurrentLinkedQueue 原理 -> p103
+    1. 模仿 ConcurrentLinkedQueue -> p103
